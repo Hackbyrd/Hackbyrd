@@ -1,0 +1,46 @@
+/* Hackbyrd.css.scss */
+
+
+#space {
+  height: 700px;
+  z-index: -2;
+}
+
+#home {
+  margin-top: 60px;
+  height: 700px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  display: block;
+  z-index: -1;
+}
+
+#about {
+  margin-top: 660px;
+  height: 500px;
+  background-color: #3498db; /* #2383c4 */
+  z-index: 5;
+  color: white;
+}
+
+#fiscalnote {
+  height: 500px;
+  background-color: #6e2278;
+  z-index: 5;
+  color: white;
+}
+
+#maryland {
+  height: 500px;
+  background-color: #95a5a6; /* #7f9293 */
+  z-index: 5;
+  color: white;
+}
+
+#footer {
+  height: 150px;
+  background-color: #18bc9c; /* #13987e */
+  color: white;
+}

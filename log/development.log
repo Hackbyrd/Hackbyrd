@@ -4,3 +4,984 @@ Started GET "/" for 127.0.0.1 at 2014-04-19 15:01:13 -0400
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.1/gems/railties-4.0.3/lib/rails/templates/rails/welcome/index.html.erb (10.5ms)
 Completed 200 OK in 78ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 00:01:14 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 696ms (Views: 695.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-22 00:01:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 00:01:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 00:01:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 00:01:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 00:01:16 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 00:17:33 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 00:17:33 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 00:17:33 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 00:20:41 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 00:20:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 00:20:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 00:20:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 00:20:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 00:20:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:19:29 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 55ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 15:19:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 15:19:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 15:19:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 15:19:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 15:19:29 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:20:38 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 15:20:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 15:20:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 15:20:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 15:20:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 15:20:38 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:27:48 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 15:27:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 15:27:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 15:27:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 15:27:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 15:27:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:29:30 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 15:29:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 15:29:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 15:29:30 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 15:29:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 15:29:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:32:02 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 15:32:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 15:32:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 15:32:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 15:32:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 15:32:02 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:32:59 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 15:32:59 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 15:32:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 15:32:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 15:32:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 15:32:59 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:33:14 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 15:33:14 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 15:33:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 15:33:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 15:33:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 15:33:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:33:54 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 15:33:55 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 15:33:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 15:33:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 15:33:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 15:33:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:52:47 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-22 15:52:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-22 15:52:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-22 15:52:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-22 15:52:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-22 15:52:47 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:10:28 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:10:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:10:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:10:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:10:29 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:10:29 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:10:54 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 148ms (Views: 147.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:10:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:10:55 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:10:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:10:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:10:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:10:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:12:09 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.4ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:12:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:12:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:12:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:12:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:12:09 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:12:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:13:14 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.0ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:13:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:13:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:13:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:13:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:13:14 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:13:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:14:31 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.9ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:14:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:14:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:14:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:14:31 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:14:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:14:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:16:09 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (1.6ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:16:09 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:16:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:16:35 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:16:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:35 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:16:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:35 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:16:45 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.8ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:16:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:45 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:16:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:16:45 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:17:08 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:17:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:17:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:17:09 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:17:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:17:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:17:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:20:36 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.4ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:20:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:20:36 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:20:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:20:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:20:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:20:36 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:27:52 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:27:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:27:52 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:27:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:27:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:27:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:27:52 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:28:07 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.0ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:28:07 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:28:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:28:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:28:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:28:07 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:28:07 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:30:16 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.5ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:30:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:30:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:30:17 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:30:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:30:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:30:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:33:25 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was "##2c3e50;"
+  (in /Users/Jonathan/Dropbox/Hackbyrd/app/assets/stylesheets/hackbyrd.css.scss:30)):
+     5:     <title>Hackbyrd</title>
+     6:     <meta name="viewport" content="width=device-width, initial-scale=1">
+     7:     <%= stylesheet_link_tag "bootstrap" %>
+     8:     <%= stylesheet_link_tag "hackbyrd" %>
+     9:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    10: 
+    11:     <!-- Latest compiled and minified JavaScript -->
+  app/assets/stylesheets/hackbyrd.css.scss:30
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__613728819542876125_70225346915000'
+
+
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.1@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.1@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.1@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:33:40 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:33:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:33:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:33:40 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:33:40 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:33:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:33:40 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:34:53 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:34:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:34:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:34:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:34:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:34:53 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:34:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:35:29 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:35:29 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:35:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:35:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:35:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:35:29 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:35:29 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:37:32 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.4ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:37:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:37:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:37:32 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:37:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:37:32 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:37:32 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:37:42 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:37:42 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:37:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:37:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:37:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:37:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:37:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:40:18 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:40:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:40:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:40:18 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:40:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:40:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:40:18 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:40:58 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:40:58 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:40:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:40:58 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:40:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:40:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:40:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:41:21 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:41:22 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:41:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:41:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:41:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:41:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:41:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:41:49 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:41:49 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:41:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:41:49 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:41:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:41:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:41:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:42:59 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.0ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:42:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:42:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:42:59 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:42:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:42:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:42:59 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:43:43 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.0ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:43:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:43:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:43:44 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:43:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:43:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:43:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:49:34 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:49:34 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:49:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:49:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:49:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:49:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:49:34 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 00:49:58 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered hackbyrd/home.html.erb within layouts/application (0.0ms)
+Warning. Error encountered while saving cache 8d1e00cab57bdb8f4dd7cce0ee9e7ab75b28f31d/hackbyrd.css.scssc: can't dump anonymous class #<Class:0x007fbd393a8308>
+
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 00:49:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 00:49:58 -0400
+
+
+Started GET "/assets/hackbyrd.css?body=1" for 127.0.0.1 at 2014-04-23 00:49:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 00:49:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 00:49:58 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-23 00:49:58 -0400
