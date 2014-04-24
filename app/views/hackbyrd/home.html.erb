@@ -1,5 +1,6 @@
 <!-- <div class = "container-fluid" id = "topspace"></div> -->
 
+<%# home: this div is static %>
 <div class = "container-fluid" id = "home">
   <div class = "container">
     <div class = "row">
@@ -7,37 +8,44 @@
           IMAGE
         </div>
         <div class = "col-sm-5">
-          Entreprenuer<br/>
-          Engineer<br/>
-          Terp
+          <h1 id = "title-entreprenuer">Entreprenuer</h1>
+          <h1 id = "title-engineer">Engineer</h1>
+          <h1 id = "title-terp">Terp</h1>
         </div>
     </div>
   </div>
 </div>
 
+<%# About  %>
 <div class = "container-fluid" id = "about">
   <div class = "container">
     <div class = "row">
       <div class = "col-sm-3">
-        image
+        <%= image_tag "profile1.png", :id => "about-pix" %>
       </div>
       <div class = "col-sm-9">
-        Description
+        <div id = "about-description">
+          Hi, my name is Jonathan Chaochin Chen. I am 22 years old and I am currently living in Washington, DC.
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+<%# Space %>
 <div class = "container-fluid" id = "space"></div>
 
+<%# FiscalNote %>
 <div class = "container-fluid" id = "fiscalnote">
   <div class = "container">
     <div class = "row">
-      <div class = "col-sm-3">
-        image
-      </div>
       <div class = "col-sm-9">
-        Description
+        <div id = "fiscalnote-description">
+          When I was 21 years old, I founded a company called FiscalNote, Inc. with two of my friends from high school, Tim Hwang and Gerald Yao.
+        </div>
+      </div>
+      <div class = "col-sm-3">
+        <a href = "https://www.fiscalnote.com"><%= image_tag "fn-logo.png", :id => "fiscalnote-pix" %></a>
       </div>
     </div>
   </div>
@@ -49,10 +57,12 @@
   <div class = "container">
     <div class = "row">
       <div class = "col-sm-3">
-        image
+        <%= image_tag "umd-photo.png", :id => "maryland-pix" %>
       </div>
       <div class = "col-sm-9">
-        Description
+        <div id = "maryland-description">
+          I graduated from the University of Maryland, College Park with a degree in computer science.
+        </div>
       </div>
     </div>
   </div>
