@@ -1,0 +1,115 @@
+// import other css
+@import 'variables.scss';
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+
+body {
+  font-family: 'Coming Soon', cursive;
+  background: $background-blue;
+  color: $text-blue;
+}
+
+h1 {
+  text-align: center;
+
+  .arrow-down {
+    height: 36px;
+    width: 36px;
+
+    // point down
+    -webkit-transform:  rotate(90deg);
+    -moz-transform:     rotate(90deg);
+    -ms-transform:      rotate(90deg);
+    -o-transform:       rotate(90deg);
+    transform:          rotate(90deg);
+  }
+}
+
+h2 {
+  text-align: center;
+
+  // xs screen
+  @media (max-width: $max-screen-xs) {
+    font-size: 18px;
+
+    .arrow-right {
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  // sm screen
+  @media (min-width: $min-screen-sm) and (max-width: $max-screen-sm) {
+    font-size: 24px;
+
+    .arrow-right {
+      height: 24px;
+      width: 24px;
+    }
+  }
+
+  // md screen
+  @media (min-width: $min-screen-md) and (max-width: $max-screen-md) {
+    font-size: 30px;
+
+    .arrow-right {
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  // lg screen
+  @media (min-width: $min-screen-lg) {
+    font-size: 30px;
+
+    .arrow-right {
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+
+h4 {
+  text-align: center;
+}
+
+svg {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+
+  // xs screen
+  @media (max-width: $max-screen-xs) {
+    width: 90%;
+  }
+
+  // sm screen
+  @media (min-width: $min-screen-sm) and (max-width: $max-screen-sm) {
+    width: 80%;
+  }
+
+  // md screen
+  @media (min-width: $min-screen-md) and (max-width: $max-screen-md) {
+    width: 70%;
+  }
+
+  // lg screen
+  @media (min-width: $min-screen-lg) {
+    width: 60%;
+  }
+
+}
+
+.jonathan_path {
+  stroke-dashoffset: 1500;
+  stroke-dasharray: 1500;
+}
+
+// while scrolling, draw jonathan chen in this empty space
+.empty-space {
+  width: 100%;
+  height: 4000px;
+}

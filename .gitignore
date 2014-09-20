@@ -95,3 +95,10 @@ data-backup/
 .ruby-version
 
 .metadata
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore DS_Stores
+*.DS_Store

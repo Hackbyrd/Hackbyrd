@@ -3,37 +3,41 @@
 // Javascript
 $(function(){
 
-  /* intro titles fade in */
-  // $("#title-entreprenuer").hide();
-  // $("#title-engineer").hide();
-  // $("#title-terp").hide();
-  // $("#title-entreprenuer").fadeIn(750, function(){
-  //   $("#title-engineer").delay(1000).fadeIn(750, function(){
-  //     $("#title-terp").delay(250).fadeIn(750, function(){
-  //     });
-  //   });
-  // });
+  // If user has not scrolled down yet, make
+  // $("#stop-waiting").delay(5000).fadeIn();
 
-  /* navigation bar links scrollto */
-  $('#nav-name').click(function(e) { 
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: 0 }, 1000);
-  });
-  $('#nav-about').click(function(e) { 
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $('#about').offset().top - 60 }, 1000);
-  });
-  $('#nav-fiscalnote').click(function(e) { 
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $('#fiscalnote').offset().top - 60 }, 1000);
-  });
-  $('#nav-maryland').click(function(e) { 
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $('#maryland').offset().top - 60 }, 1000);
-  });
-  $('#nav-contact').click(function(e) { 
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $('#footer').offset().top - 60 }, 1000);
+  //set the units for the svg paths
+  $(".jonathan_path").css("stroke-dashoffset", "1000");
+  $(".jonathan_path").css("stroke-dasharray", "1000");
+
+  //variable for the 'stroke-dashoffset' unit
+  var $dashOffset = $(".jonathan_path").css("stroke-dashoffset");//.star
+
+  //on a scroll event - execute function
+  $(window).scroll(function () {
+
+    // check if there is space left to scroll vertical
+    if ($(window).height() + $(window).scrollTop() < $("html").height()) {
+
+      //calculate how far down the page the user is
+      var $percentageComplete = (($(window).scrollTop()/($("html").height() - $(window).height()))*50);
+
+      //convert dashoffset pixel value to integer
+      var $newUnit = parseInt($dashOffset, 10);
+
+      //convert percentage complete unit to an interger
+      //var $parsedPercentage = parseInt($percentageComplete, 10);
+
+      //get the value to be subtracted from the 'stroke-dashoffset'
+      var $offsetUnit = $percentageComplete * ($newUnit / 100);
+
+      //set the new value of the dashoffset to create the drawing effect
+      $(".jonathan_path").css("stroke-dashoffset", $newUnit - $offsetUnit);//.star
+
+    } else { // if scroll is greater or equal to window height
+
+    } // end check scroll vertical
+
   });
 
 });
