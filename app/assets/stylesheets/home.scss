@@ -6,6 +6,10 @@ body {
   font-family: 'Coming Soon', cursive;
   background: $background-blue;
   color: $text-blue;
+  // background-image: image-url("fireworks.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1 {
@@ -72,9 +76,11 @@ h4 {
   text-align: center;
 }
 
-svg {
+svg.jonathan-chen-svg {
   position: fixed;
   margin: auto;
+  // background: rgba(79, 140 ,247, .8);
+
   top: 0;
   left: 0;
   right: 0;
@@ -93,12 +99,12 @@ svg {
 
   // md screen
   @media (min-width: $min-screen-md) and (max-width: $max-screen-md) {
-    width: 70%;
+    width: 105%;
   }
 
   // lg screen
   @media (min-width: $min-screen-lg) {
-    width: 60%;
+    width: 100%;
   }
 
 }
