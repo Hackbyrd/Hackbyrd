@@ -1,7 +1,7 @@
 /* Hackbyrd javascript */
 
 // Javascript
-$(function(){
+$(function() {
 
   // If user has not scrolled down yet, make
   // $("#stop-waiting").delay(5000).fadeIn();
@@ -16,7 +16,7 @@ $(function(){
   var $dashOffset = $(".jonathan_path").css("stroke-dashoffset");//.star
 
   //on a scroll event - execute function
-  $(window).scroll(function () {
+  $(window).scroll(function() {
 
     // check if there is space left to scroll vertical
     if ($(window).height() + $(window).scrollTop() < $("html").height()) {
@@ -38,8 +38,9 @@ $(function(){
 
     } else { // if scroll is greater or equal to window height divided by two (halfway point)
 
-      // var left_offset = $(window).height()/2 - $(window).scrollTop();
+      $(".jonathan_path").css("stroke-dashoffset", 0);
 
+      // var left_offset = $(window).height()/2 - $(window).scrollTop();
       // $("#jonathan-chen-svg").css("left", left_offset);
 
     } // end check scroll vertical

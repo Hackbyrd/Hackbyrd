@@ -1,0 +1,14 @@
+@import 'variables.scss';
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+
+.profile-pix {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  border: 10px solid $text-blue;
+}
+
+.timeline-draw {
+  // stroke-dashoffset: 1000;
+  // stroke-dasharray: 1000;
+}

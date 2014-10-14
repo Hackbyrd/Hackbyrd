@@ -72,6 +72,14 @@ h2 {
   }
 }
 
+a.enter-site {
+  color: $text-blue;
+
+  &:hover {
+    color: $text-blue;
+  }
+}
+
 h4 {
   text-align: center;
 }

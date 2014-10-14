@@ -8,4 +8,9 @@
 <%= render "layouts/jonathan_chen" %>
 
 <%# Sideways Scrolling Message %>
-<h2>Welcome! Enter Site <%= image_tag "arrow_down.svg", :class => "arrow-right wow bounceInLeft" %></h2>
+<a class="enter-site" href="<%= timeline_path %>">
+  <h2 class="wow bounceInLeft">
+    Welcome! Enter Site <%= image_tag "arrow_down.svg", :class => "arrow-right" %>
+  </h2>
+</a>
+
