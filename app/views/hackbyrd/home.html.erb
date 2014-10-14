@@ -1,3 +1,21 @@
+<%# Extra stylesheets (CSS) just for this page. %>
+<% content_for :extra_stylesheets do %>
+  <%= stylesheet_link_tag "bootstrap" %>
+  <%= stylesheet_link_tag "animate" %>
+  <%= stylesheet_link_tag "home" %>
+<% end %>
+
+<%# Extra Javascript just for this page. %>
+<% content_for :extra_javascripts do %>
+  <%= javascript_include_tag "bootstrap.js" %>
+  <%= javascript_include_tag "home.js" %>
+  <%= javascript_include_tag "svg_draw.js" %>
+  <%= javascript_include_tag "wow.min.js" %>
+<% end %>
+
+<%# Activate WOW %>
+<script>new WOW().init();</script>
+
 <%# Welcome message %>
 <h1 class="animated bounceInDown">Scroll Down <%= image_tag "arrow_down.svg", :class => "arrow-down" %></h1>
 
@@ -8,7 +26,7 @@
 <%= render "layouts/jonathan_chen" %>
 
 <%# Sideways Scrolling Message %>
-<a class="enter-site" href="<%= timeline_path %>">
+<a class="enter-site" href="<%= menu_path %>">
   <h2 class="wow bounceInLeft">
     Welcome! Enter Site <%= image_tag "arrow_down.svg", :class => "arrow-right" %>
   </h2>

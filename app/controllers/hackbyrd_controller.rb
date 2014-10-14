@@ -3,7 +3,7 @@ class HackbyrdController < ApplicationController
   def home
   end
 
-  def timeline
+  def menu
   end
 
 end

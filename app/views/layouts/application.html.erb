@@ -7,13 +7,14 @@
 
     <%# Stylesheets %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= yield :extra_stylesheets %>
 
     <%# Prevents Cross Site Request Forgery %>
     <%= csrf_meta_tags %>
 
     <%# Javascript %>
     <%= javascript_include_tag 'application' %>
-    <script>new WOW().init();</script>
+    <%= yield :extra_javascripts %>
 
   </head>
 
