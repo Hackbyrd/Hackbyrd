@@ -3,6 +3,7 @@
   <%= stylesheet_link_tag "bootstrap" %>
   <%= stylesheet_link_tag "animate" %>
   <%= stylesheet_link_tag "home" %>
+  <%= stylesheet_link_tag "navigation" %>
 <% end %>
 
 <%# Extra Javascript just for this page. %>
@@ -22,13 +23,27 @@
 <%# If user hasn't scrolled yet, remind them %>
 <h4 class="wow fadeIn" data-wow-duration=".5s" data-wow-delay="3s">What are you waiting for?</h4>
 
+<%# Logo %>
+<%= image_tag "jc-logo.svg", :id => "jc-logo" %>
+
 <%# Jonathan Chen %>
-<%= render "layouts/jonathan_chen" %>
+<%= render "layouts/jonathan_chen_logo" %>
 
-<%# Sideways Scrolling Message %>
-<a class="enter-site" href="<%= menu_path %>">
-  <h2 class="wow bounceInLeft">
-    Welcome! Enter Site <%= image_tag "arrow_down.svg", :class => "arrow-right" %>
-  </h2>
-</a>
-
+<%# navigation links %>
+<section class="color-blue">
+  <nav class="cl-effect-blue text-center">
+    <a href="<%= root_path %>" class="wow bounceInDown" data-wow-delay="0s">About</a>
+    <a href="<%= root_path %>" class="wow bounceInDown" data-wow-delay=".15s">Work</a>
+    <a href="<%= root_path %>" class="wow bounceInDown" data-wow-delay=".3s">Projects</a>
+    <a href="<%= root_path %>" class="wow bounceInDown" data-wow-delay=".45s">Press</a>
+    <a href="https://medium.com/@Hackbyrd" class="wow bounceInDown" data-wow-delay=".6s">Blog</a>
+  </nav>
+  <%# <nav class="cl-effect-blue text-center"> %>
+    <%#= image_tag "social/googleplus_blue.svg", :class => "social-link" %>
+    <%#= image_tag "social/twitter_blue.svg", :class => "social-link" %>
+    <%#= image_tag "social/facebook_blue.svg", :class => "social-link" %>
+    <%#= image_tag "social/github_blue.svg", :class => "social-link" %>
+    <%#= image_tag "social/linkedin_blue.svg", :class => "social-link" %>
+    <%#= image_tag "social/email_blue.svg", :class => "social-link" %>
+  <%# </nav> %>
+</section>
