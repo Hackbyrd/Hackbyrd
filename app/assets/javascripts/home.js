@@ -29,6 +29,7 @@ $(function() {
 
       // make logo absolute
       $("#jc-logo").css('position', 'absolute');
+      $('.jonathan-chen-svg').css('position', 'absolute');
 
       //calculate how far down the page the user is
       var $percentageComplete = (($(window).scrollTop()/($("html").height() - $(window).height())) * 36);
@@ -45,7 +46,8 @@ $(function() {
       //set the new value of the dashoffset to create the drawing effect
       $(".jonathan_path").css("stroke-dashoffset", $newUnit - $offsetUnit);//.star
 
-      var currTop = $(window).scrollTop() - ($(window).height() * 2);
+      var currTopLogo = $(window).scrollTop() - ($(window).height() * 2);
+      var currTopText = $(window).scrollTop() - ($(window).height() * 1.3)
       var speed = $(window).scrollTop() * 2;
 
       // the point in which the jc logo moves with the jonathan chen text
@@ -53,27 +55,32 @@ $(function() {
 
         // scrolling down
         if ($last_scroll_position - $(window).scrollTop() < 0) {
-          $("#jc-logo").css("top", currTop + speed);
+          $("#jc-logo").css("top", currTopLogo + speed);
 
           // move jonathan chen text down
           if ($(window).scrollTop() >= $(window).height() * 1.3) {
-            $('.jonathan-chen-svg').css("top", -(($(window).height() * 1.3) - $(window).scrollTop()));
+            $('.jonathan-chen-svg').css("top", currTopText + speed);
+          } else { // jonathan chen text stays in same place
+            $(".jonathan-chen-svg").css("top", speed);
           }
 
         // scrolling up
         } else {
-          $("#jc-logo").css("top", currTop + speed);
+          $("#jc-logo").css("top", currTopLogo + speed);
 
           // move jonathan chen text up
           if ($(window).scrollTop() <= $(window).height() * 1.7 && $(window).scrollTop() > $(window).height() * 1.3) {
-            $('.jonathan-chen-svg').css("top", -(($(window).height() * 1.3) - $(window).scrollTop()));
+            $('.jonathan-chen-svg').css("top", currTopText + speed);
+          } else { // jonathan chen text stays in same place
+            $(".jonathan-chen-svg").css("top", speed);
           }
 
         }
 
-      // the point in whish the jc logo locks in place
+      // the point in which the jc logo and jonathan chen text locks in place
       } else {
-        $("#jc-logo").css("top", (currTop + speed) + ($(window).height() * 1.7) - $(window).scrollTop());
+        $("#jc-logo").css("top", (currTopLogo + speed) + ($(window).height() * 1.7) - $(window).scrollTop());
+        $(".jonathan-chen-svg").css("top", (currTopText + speed) + ($(window).height() * 1.7) - $(window).scrollTop());
       }
 
       // updated the last_scroll_position
@@ -92,6 +99,12 @@ $(function() {
         $("#jc-logo").css({
           position: 'fixed',
           top: -$(window).height()/3.3
+        });
+
+        // jonathan chen text is fixed
+        $(".jonathan-chen-svg").css({
+          position: 'fixed',
+          top: $(window).height()/2.53
         });
 
         // fill in jonathan chen text
