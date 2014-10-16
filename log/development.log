@@ -60816,3 +60816,712 @@ Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 00:22:06 -0400
 
 
 Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 00:22:06 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 00:52:32 -0400
+Processing by HackbyrdController#home as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/link_loading.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+  Rendered layouts/_jonathan_chen.html.erb (0.5ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (144.5ms)
+Completed 200 OK in 188ms (Views: 187.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 00:52:33 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered layouts/_jonathan_chen.html.erb (0.2ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (57.8ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:53:04 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered layouts/_jonathan_chen.html.erb (0.2ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:53:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered layouts/_jonathan_chen.html.erb (0.1ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:53:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+Processing by HackbyrdController#home as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/home.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+  Rendered layouts/_jonathan_chen.html.erb (0.0ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (51.0ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:54:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+Processing by HackbyrdController#home as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/home.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+  Rendered layouts/_jonathan_chen.html.erb (0.3ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (103.2ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:07 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:08 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:08 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:55:08 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:55:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+Processing by HackbyrdController#home as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/home.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+  Rendered layouts/_jonathan_chen.html.erb (0.0ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:55:43 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:55:50 -0400
+Processing by HackbyrdController#home as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/home.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+  Rendered layouts/_jonathan_chen.html.erb (0.1ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:55:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+Processing by HackbyrdController#home as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/home.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+  Rendered layouts/_jonathan_chen.html.erb (0.1ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (31.4ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:55:59 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:00 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:56:00 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:00 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:00 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:56:00 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+Processing by HackbyrdController#home as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/home.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff9dc3db688>
+
+  Rendered layouts/_jonathan_chen.html.erb (0.0ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 29ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:56:14 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:21 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:21 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:21 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:21 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:21 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:56:21 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered layouts/_jonathan_chen.html.erb (0.1ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/jc_logo.svg" for 127.0.0.1 at 2014-10-16 10:58:10 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-16 10:58:10 -0400

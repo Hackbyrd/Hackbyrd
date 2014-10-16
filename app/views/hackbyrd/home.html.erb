@@ -4,6 +4,7 @@
   <%= stylesheet_link_tag "animate" %>
   <%= stylesheet_link_tag "home" %>
   <%= stylesheet_link_tag "navigation" %>
+  <%= stylesheet_link_tag "link_loading" %>
 <% end %>
 
 <%# Extra Javascript just for this page. %>
@@ -12,10 +13,15 @@
   <%= javascript_include_tag "home.js" %>
   <%= javascript_include_tag "svg_draw.js" %>
   <%= javascript_include_tag "wow.min.js" %>
+  <%= javascript_include_tag "modernizr.custom.js" %>
+  <%= javascript_include_tag "classie.js" %>
 <% end %>
 
 <%# Activate WOW %>
 <script>new WOW().init();</script>
+
+<%# loading animation %>
+<div class="la-anim-10"></div>
 
 <%# Welcome message %>
 <h1 class="animated bounceInDown">Scroll Down <%= image_tag "arrow_down.svg", :class => "arrow-down" %></h1>
@@ -47,3 +53,6 @@
     <%#= image_tag "social/email_blue.svg", :class => "social-link" %>
   <%# </nav> %>
 </section>
+<div id="la-buttons">
+  <button data-anim="la-anim-10">Corner indicator</button>
+</div>
