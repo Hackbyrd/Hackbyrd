@@ -1,1 +1,12 @@
-<h1>UNDER CONTRUCTION</h1>
+<%# Extra stylesheets (CSS) just for this page. %>
+<% content_for :extra_stylesheets do %>
+  <%= stylesheet_link_tag "snake" %>
+<% end %>
+
+<%# Extra Javascript just for this page. %>
+<% content_for :extra_javascripts do %>
+  <%= javascript_include_tag "snake.js" %>
+<% end %>
+
+<%# Snake game canvas %>
+<canvas id="snake_canvas" width="450" height="450"></canvas>

@@ -1,0 +1,13 @@
+@import 'variables.scss';
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Coming Soon', cursive;
+  background-color: $background-blue;
+}
+
+#snake_canvas {
+  border: 0px solid blue;
+}
