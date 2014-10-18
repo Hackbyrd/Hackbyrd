@@ -1,1 +1,17 @@
-<h1>UNDER CONTRUCTION</h1>
+<%# Extra stylesheets (CSS) just for this page. %>
+<% content_for :extra_stylesheets do %>
+  <%= stylesheet_link_tag "about" %>
+<% end %>
+
+<%# Extra Javascript just for this page. %>
+<% content_for :extra_javascripts do %>
+  <%= javascript_include_tag "about.js" %>
+<% end %>
+
+<%# background image %>
+<div id="about-background">
+</div>
+
+<%# content %>
+<div id="about-content">
+</div>

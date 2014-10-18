@@ -1,0 +1,24 @@
+// import other css
+@import 'variables.scss';
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+
+body {
+  font-family: 'Coming Soon', cursive;
+  background: $background-blue;
+  color: $text-blue;
+  margin: 0px;
+  padding: 0px;
+}
+
+#about-background {
+  width: 100%; // height set in about.js
+  background-image: image-url('about/background1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-content {
+  height: 1000px;
+  background-color: red;
+}
