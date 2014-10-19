@@ -4,8 +4,8 @@
 
 body {
   font-family: 'Coming Soon', cursive;
-  background: $background-blue;
-  color: $text-blue;
+  background: $background-gray;
+  color: $text-gray;
   margin: 0px;
   padding: 0px;
 }
@@ -16,9 +16,40 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 100px;
+  border-bottom: 5px solid $text-gray;
 }
 
-#about-content {
-  height: 1000px;
-  background-color: red;
+#about-content-container {
+  min-height: 1px;
+  overflow: auto;
+}
+
+#about-content-diagonal {
+  position: absolute;
+  width: $max-screen-xs;
+  border-left: 2px solid $text-gray;
+  padding-left: 100px;
+  margin-bottom: 100px;
+
+  -webkit-transform:  skew(15deg);
+  -moz-transform:     skew(15deg);
+  -ms-transform:      skew(15deg);
+  -o-transform:       skew(15deg);
+  transform:          skew(15deg);
+}
+
+.about-content-inner {
+  width: 100%;
+  height: 100px;
+  border: 5px solid $text-gray;
+  margin: 10px 0px;
+  padding: 10px;
+  color: white;
+
+  -webkit-transform:  skew(-15deg);
+  -moz-transform:     skew(-15deg);
+  -ms-transform:      skew(-15deg);
+  -o-transform:       skew(-15deg);
+  transform:          skew(-15deg);
 }

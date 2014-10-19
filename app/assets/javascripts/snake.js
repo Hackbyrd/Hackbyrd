@@ -13,8 +13,8 @@ $(document).ready(function(){
   var h       = $("#snake_canvas").height();
 
   // colors of background and text
-  var background_colors = ["#4F8CF7", "#CCCC00", "#E95959", "#55D573", "#B95EC6", "#000000"]; // Add more background colors
-  var snake_colors = ["#1A4DA6", "#CC9922", "#B53838", "#2CA549", "#793C82", "#ffffff"];      // Add more snake colors
+  var background_colors = ["#4F8CF7", "#CCCC00", "#E95959", "#55D573", "#B95EC6", "#313140"]; // Add more background colors
+  var snake_colors = ["#1A4DA6", "#CC9922", "#B53838", "#2CA549", "#793C82", "#5A5A66"];      // Add more snake colors
   var color_size = background_colors.length;
   var color_index = 0;
 
