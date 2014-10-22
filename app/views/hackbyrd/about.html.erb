@@ -1,15 +1,47 @@
 <%# Extra stylesheets (CSS) just for this page. %>
 <% content_for :extra_stylesheets do %>
   <%= stylesheet_link_tag "about" %>
+  <%= stylesheet_link_tag "animate" %>
 <% end %>
 
 <%# Extra Javascript just for this page. %>
 <% content_for :extra_javascripts do %>
   <%= javascript_include_tag "about.js" %>
+  <%= javascript_include_tag "wow.min.js" %>
 <% end %>
 
-<%# background image %>
-<div id="about-background">
+<%# Activate WOW %>
+<script>new WOW().init();</script>
+
+<div id="about-background" class="background-height">
+
+  <%# text %>
+  <div id="about-background-left" class="background-height">
+    <h1 class="wow fadeInLeft" data-wow-duration=".75s" data-wow-delay=".75s">Engineer</h1>
+    <h1 class="wow fadeInLeft" data-wow-duration=".75s" data-wow-delay="1.5s">Entreprenuer</h1>
+    <h1 class="wow fadeInLeft" data-wow-duration=".75s" data-wow-delay="2.25s">Designer</h1>
+
+    <%# scrolll down buttom %>
+    <div id="learnmore-box">
+      <h2 id="jc-quote" class="wow fadeInLeft" data-wow-duration=".75s" data-wow-delay="3s">The path to success may seem endless, but it's better that way. It just means that there is no limit to how far you can go. - JC</h2>
+      <button class="wow bounceInLeft" data-wow-duration="1.25s" data-wow-delay="3.75s" id="learnmore-btn">More About Me</button>
+    </div>
+
+    <div id="about-background-left-footer" class="wow bounceInUp" data-wow-duration="1.25s" data-wow-delay="3.75s">
+      <div class="social-link-box">
+        <a href="mailto:jxmoneyz@gmail.com"><%= image_tag "social/email_gray.svg", :class => "social-link", :style => "margin-left: 0px;" %></a>
+        <a href="https://www.linkedin.com/in/hackbyrd"><%= image_tag "social/linkedin_gray.svg", :class => "social-link" %></a>
+        <a href="https://github.com/Hackbyrd"><%= image_tag "social/github_gray.svg", :class => "social-link" %></a>
+        <a href="https://www.facebook.com/hackbyrd"><%= image_tag "social/facebook_gray.svg", :class => "social-link" %></a>
+        <a href="https://twitter.com/Hackbyrd"><%= image_tag "social/twitter_gray.svg", :class => "social-link" %></a>
+        <a href="https://plus.google.com/u/0/+JonathanChenHackbyrd"><%= image_tag "social/googleplus_gray.svg", :class => "social-link" %></a>
+      </div>
+    </div>
+  </div>
+
+  <%# background image %>
+  <div id="about-background-right" class="background-height"></div>
+
 </div>
 
 <%# content %>
@@ -17,23 +49,25 @@
   <div id="about-content-diagonal">
 
     <div class="about-content-inner">
-    asdf
+      <h1>Hello, I am <b class="text-red">Jonathan Chen</b>!
     </div>
 
     <div class="about-content-inner">
-    asdfasdfasdf
+      <%= image_tag "about/maryland-state.png" %>
     </div>
 
     <div class="about-content-inner">
-    asdfasdfad
+      <h2>I was born and raised in Montgomery County, <b class="text-red">Maryland</b>.</h2>
     </div>
 
     <div class="about-content-inner">
-    asdfasdfds
+      <%= image_tag "about/travilah.jpg", :class => "school-img" %>
+      <%= image_tag "about/frost.jpg", :class => "school-img" %>
+      <%= image_tag "about/wootton.jpg", :class => "school-img" %>
     </div>
 
     <div class="about-content-inner">
-    asdf
+      <h2>I attended <b class="text-red">Travilah</b> Elementary School, Robert <b class="text-red">Frost</b> Middle School, and Thomas <b class="text-red">Wootton</b> High School.</h2>
     </div>
 
     <div class="about-content-inner">

@@ -1,9 +1,17 @@
 // import other css
 @import 'variables.scss';
-@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+
+$about-gray-text: #D8D8D8;
+$about-red: #e62748;
+$about-red-text: #B51832;
+$about-white-text: #F2F2F2;
+
+html {
+  overflow-x: hidden;
+}
 
 body {
-  font-family: 'Coming Soon', cursive;
+  font-family: 'TradeGothic';
   background: $background-gray;
   color: $text-gray;
   margin: 0px;
@@ -11,45 +19,195 @@ body {
 }
 
 #about-background {
-  width: 100%; // height set in about.js
-  background-image: image-url('about/background1.jpg');
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+#about-background-left {
+  float: left;
+  background-color: $about-red;
+  display: inline-block;
+  position: relative;
+
+  h1 {
+    color: $about-white-text;
+    margin-left: 30px;
+    padding-left: 10px;
+    border-left: 5px solid $about-red-text;
+
+    // xs screen
+    @media (max-width: $max-screen-xs) {
+      font-size: 48px;
+    }
+
+    // sm screen
+    @media (min-width: $min-screen-sm) and (max-width: $max-screen-sm) {
+      font-size: 44px;
+    }
+
+    // md screen
+    @media (min-width: $min-screen-md) and (max-width: $max-screen-md) {
+      font-size: 44px;
+    }
+
+    // lg screen
+    @media (min-width: $min-screen-lg) and (max-width: 1399px) {
+      font-size: 42px;
+    }
+
+    @media (min-width: 1400px) {
+      font-size: 48px;
+    }
+  }
+
+  #learnmore-box {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+
+    h2 {
+      color: $about-red-text;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: 60px;
+      padding-left: 10px;
+      border-left: 5px solid $about-red-text;
+      text-align: left;
+
+       // xs screen
+      @media (max-width: $max-screen-xs) {
+        margin-top: 40px;
+      }
+    }
+
+    #learnmore-btn {
+      margin: 0px 20px;
+      font-size: 20px;
+      color: $about-white-text;
+      background-color: $about-red-text;
+      border: 0px solid red;
+      border-radius: 0px;
+      padding: 10px 15px;
+
+      &:hover {
+        background-color: $about-white-text;
+        color: $about-red-text;
+        cursor: pointer;
+      }
+    }
+  }
+
+  #about-background-left-footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    left: 0;
+    right: 0;
+
+    .social-link-box {
+      width: 290px;
+      height: 40px;
+      margin-bottom: 10px;
+
+      .social-link {
+        float: left;
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+#about-background-right {
+  background-image: image-url('about/background-light.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 100px;
-  border-bottom: 5px solid $text-gray;
+  float: left;
+  display: inline-block;
 }
 
 #about-content-container {
   min-height: 1px;
-  overflow: auto;
+  overflow-x: auto;
 }
 
 #about-content-diagonal {
   position: absolute;
-  width: $max-screen-xs;
   border-left: 2px solid $text-gray;
+  border-right: 2px solid $text-gray;
   padding-left: 100px;
   margin-bottom: 100px;
+  margin-top: 50px;
 
   -webkit-transform:  skew(15deg);
   -moz-transform:     skew(15deg);
   -ms-transform:      skew(15deg);
   -o-transform:       skew(15deg);
   transform:          skew(15deg);
+
+  // xs screen
+  @media (max-width: $max-screen-xs) {
+    font-size: 48px;
+  }
+
+  // sm screen
+  @media (min-width: $min-screen-sm) and (max-width: $max-screen-sm) {
+    font-size: 44px;
+  }
+
+  // md screen
+  @media (min-width: $min-screen-md) and (max-width: $max-screen-md) {
+    font-size: 44px;
+  }
+
+  // lg screen
+  @media (min-width: $min-screen-lg) {
+    width: 640px;
+  }
 }
 
 .about-content-inner {
   width: 100%;
-  height: 100px;
-  border: 5px solid $text-gray;
+  min-height: 100px;
   margin: 10px 0px;
   padding: 10px;
-  color: white;
+  color: $about-gray-text;
+  text-align: left;
+  overflow: auto;
+
+  img.school-img {
+    float: left;
+    height: 175px;
+    width: 175px;
+    margin-right: 40px;
+    border: 5px solid $text-gray;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-size: 48px;
+    display: inline;
+  }
+
+  &.border {
+    border: 5px solid $text-gray;
+  }
 
   -webkit-transform:  skew(-15deg);
   -moz-transform:     skew(-15deg);
   -ms-transform:      skew(-15deg);
   -o-transform:       skew(-15deg);
   transform:          skew(-15deg);
+}
+
+b.text-red {
+  color: $about-red;
 }
