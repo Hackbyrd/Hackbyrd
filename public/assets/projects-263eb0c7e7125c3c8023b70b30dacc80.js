@@ -1,0 +1,1 @@
+function setHeights(){$(".window-height").css("height",$(window).height()),$(".intro").css({"margin-top":-($(".intro").height()/2)})}$(document).ready(function(){setHeights(),$(window).resize(function(){setHeights()}),$("#particles").particleground({dotColor:"#5cbdaa",lineColor:"#5cbdaa",density:9e3,particleRadius:10,curvedLines:!1,parallax:!0,parallaxMultiplier:4})});

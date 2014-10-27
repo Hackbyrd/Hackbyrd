@@ -1,0 +1,1 @@
+function drawLines(){$.each($("timeline-draw"),function(o,n){var i=n;drawLine($(this),i)})}function drawLine(o,n){console.log("fish");var i=0,e=n.getTotalLength(),a=o.offset().top-$(window).scrollTop(),r=1-a/$(window).height();i=r*e,n.style.strokeDasharray=[i,e].join(" "),console.log("strokeDasharray: "+[i,e].join(" "))}$(window).scroll(function(){drawLines()});
