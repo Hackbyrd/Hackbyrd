@@ -1,5 +1,6 @@
 // import other css
 @import 'variables.scss';
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
 
 $about-gray-text: #D8D8D8;
 $about-red: #e62748;
@@ -11,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "comic neue";
+  font-family: "Oxygen";
   background: $background-gray;
   color: $text-gray;
   margin: 0px;
@@ -83,7 +84,7 @@ body {
     }
 
     #learnmore-btn {
-      font-family: "comic neue";
+      font-family: "Oxygen";
       margin: 0px 20px;
       font-size: 20px;
       color: $about-white-text;
