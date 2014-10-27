@@ -1,1 +1,25 @@
-<h1>UNDER CONTRUCTION</h1>
+<%# Extra stylesheets (CSS) just for this page. %>
+<% content_for :extra_stylesheets do %>
+  <%= stylesheet_link_tag "projects" %>
+<% end %>
+
+<%# Extra Javascript just for this page. %>
+<% content_for :extra_javascripts do %>
+  <%= javascript_include_tag "projects.js" %>
+  <%= javascript_include_tag "particleground.js" %>
+  <%= javascript_include_tag "side-navigation.js" %>
+<% end %>
+
+<div id="particles" class="window-height">
+  <div class="intro">
+    <h1><a href="https://www.github.com/hackbyrd" target="_blank"><%= image_tag "social/github_white.svg", :class => "github-link" %></a> Hackbyrd</h1>
+    <p>When I'm bored, I make things</p>
+    <button class="btn">See Projects</button>
+  </div>
+</div>
+
+<div class="window-height" style="width: 100%; background-color: white">Coming Soon...</div>
+<div class="window-height" style="width: 100%; background-color: red">Coming Soon...</div>
+<div class="window-height" style="width: 100%; background-color: blue">Coming Soon...</div>
+<div class="window-height" style="width: 100%; background-color: yellow">Coming Soon...</div>
+<div class="window-height" style="width: 100%; background-color: purple">Coming Soon...</div>

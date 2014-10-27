@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'TradeGothic';
+  font-family: cursive;
   background: $background-gray;
   color: $text-gray;
   margin: 0px;
@@ -83,6 +83,7 @@ body {
     }
 
     #learnmore-btn {
+      font-family: cursive;
       margin: 0px 20px;
       font-size: 20px;
       color: $about-white-text;
@@ -90,6 +91,11 @@ body {
       border: 0px solid red;
       border-radius: 0px;
       padding: 10px 15px;
+      -webkit-transition: all 0.5s;
+         -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+           -o-transition: all 0.5s;
+              transition: all 0.5s;
 
       &:hover {
         background-color: $about-white-text;
@@ -142,8 +148,7 @@ body {
 #about-content-diagonal {
   position: absolute;
   border-left: 2px solid $text-gray;
-  border-right: 2px solid $text-gray;
-  padding-left: 100px;
+  padding-left: 75px;
   margin-bottom: 100px;
   margin-top: 50px;
 
@@ -155,50 +160,96 @@ body {
 
   // xs screen
   @media (max-width: $max-screen-xs) {
-    font-size: 48px;
+    width: 640px;
   }
 
   // sm screen
-  @media (min-width: $min-screen-sm) and (max-width: $max-screen-sm) {
-    font-size: 44px;
-  }
-
-  // md screen
-  @media (min-width: $min-screen-md) and (max-width: $max-screen-md) {
-    font-size: 44px;
-  }
-
-  // lg screen
-  @media (min-width: $min-screen-lg) {
+  @media (min-width: $min-screen-sm) {
     width: 640px;
   }
 }
 
 .about-content-inner {
   width: 100%;
-  min-height: 100px;
+  min-height: 10px;
   margin: 10px 0px;
   padding: 10px;
   color: $about-gray-text;
   text-align: left;
   overflow: auto;
 
+  img.family-img {
+    float: left;
+    width: 290px;
+    height: auto;
+    border: 5px solid $text-gray;
+    margin-right: 10px;
+
+    &.gray {
+      border: 5px solid $text-gray;
+    }
+
+    &.red {
+      border: 5px solid $about-red-text;
+    }
+  }
+
   img.school-img {
     float: left;
-    height: 175px;
-    width: 175px;
-    margin-right: 40px;
-    border: 5px solid $text-gray;
+    height: 161px;
+    width: 161px;
+    margin-right: 51px;
     border-radius: 100px;
+    border: 5px solid $text-gray;
+
+  }
+
+  .img-caption {
+    width: 171px;
+    min-height: 30px;
+    float: left;
+    text-align: center;
+    margin-right: 51px;
+    margin-top: 15px;
   }
 
   h1 {
-    font-size: 48px;
     display: inline;
+
+    // xs screen
+    @media (max-width: $max-screen-xs) {
+      font-size: 48px;
+    }
+
+    // sm screen
+    @media (min-width: $min-screen-sm) and (max-width: $max-screen-sm) {
+      font-size: 48px;
+    }
+
+    // md screen
+    @media (min-width: $min-screen-md) and (max-width: $max-screen-md) {
+      font-size: 48px;
+    }
+
+    // lg screen
+    @media (min-width: $min-screen-lg) {
+      font-size: 56px;
+    }
   }
 
   &.border {
     border: 5px solid $text-gray;
+  }
+
+  .taiwan-text {
+    position: absolute;
+    top: 40px;
+  }
+
+  .taiwan-island {
+    height: 500px;
+    width: auto;
+    margin-left: 160px;
   }
 
   -webkit-transform:  skew(-15deg);
@@ -210,4 +261,23 @@ body {
 
 b.text-red {
   color: $about-red;
+}
+
+.bar {
+  height: 5px;
+
+  &.graybar {
+    background-color: $about-gray-text;
+    width: 75%;
+  }
+
+  &.redbar {
+    background-color: $about-red-text;
+    width: 50%;
+  }
+
+  &.float-center {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

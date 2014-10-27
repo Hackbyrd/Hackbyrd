@@ -1,0 +1,25 @@
+<%# Extra stylesheets (CSS) just for this page. %>
+<% content_for :extra_stylesheets do %>
+  <%= stylesheet_link_tag "side-navigation" %>
+<% end %>
+
+<%# Extra Javascript just for this page. %>
+<% content_for :extra_javascripts do %>
+  <%= javascript_include_tag "side-navigation.js" %>
+<% end %>
+
+<div class="side-navigation right">
+
+  <div class="action-box">
+    <%= image_tag "side-navigation/3lines.svg", :class => "action-icon", :id => "three-lines-icon" %>
+    <%= image_tag "side-navigation/cross.svg", :class => "action-icon", :id => "cross-icon", :style => "display: none;" %>
+  </div>
+  <div class="link-box">
+    <a href="<%= root_path %>" class="links">Home</a>
+    <a href="<%= work_path %>" class="links">Work</a>
+    <a href="<%= projects_path %>" class="links">Projects</a>
+    <a href="<%= press_path %>" class="links">Press</a>
+    <a href="https://medium.com/@Hackbyrd" class="links">Blog</a>
+  </div>
+
+</div>

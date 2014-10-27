@@ -13,6 +13,9 @@
 <%# Activate WOW %>
 <script>new WOW().init();</script>
 
+<%# fixed side navigation %>
+<%= render "layouts/side_navigation" %>
+
 <div id="about-background" class="background-height">
 
   <%# text %>
@@ -27,13 +30,42 @@
       <button class="wow bounceInLeft" data-wow-duration="1.25s" data-wow-delay="3.75s" id="learnmore-btn">More About Me</button>
     </div>
 
+    <%# Social links %>
     <div id="about-background-left-footer" class="wow bounceInUp" data-wow-duration="1.25s" data-wow-delay="3.75s">
-      <div class="social-link-box">
+
+      <%# appears in xs and lg screens %>
+      <div class="social-link-box visible-xs-lg">
         <a href="mailto:jxmoneyz@gmail.com"><%= image_tag "social/email_gray.svg", :class => "social-link", :style => "margin-left: 0px;" %></a>
         <a href="https://www.linkedin.com/in/hackbyrd"><%= image_tag "social/linkedin_gray.svg", :class => "social-link" %></a>
         <a href="https://github.com/Hackbyrd"><%= image_tag "social/github_gray.svg", :class => "social-link" %></a>
         <a href="https://www.facebook.com/hackbyrd"><%= image_tag "social/facebook_gray.svg", :class => "social-link" %></a>
         <a href="https://twitter.com/Hackbyrd"><%= image_tag "social/twitter_gray.svg", :class => "social-link" %></a>
+        <a href="https://plus.google.com/u/0/+JonathanChenHackbyrd"><%= image_tag "social/googleplus_gray.svg", :class => "social-link" %></a>
+      </div>
+
+      <%# appears in md screens %>
+      <div class="social-link-box visible-md">
+        <a href="mailto:jxmoneyz@gmail.com"><%= image_tag "social/email_gray.svg", :class => "social-link", :style => "margin-left: 0px;" %></a>
+        <a href="https://www.linkedin.com/in/hackbyrd"><%= image_tag "social/linkedin_gray.svg", :class => "social-link" %></a>
+        <a href="https://github.com/Hackbyrd"><%= image_tag "social/github_gray.svg", :class => "social-link" %></a>
+      </div>
+      <div class="social-link-box visible-md">
+        <a href="https://www.facebook.com/hackbyrd"><%= image_tag "social/facebook_gray.svg", :class => "social-link", :style => "margin-left: 0px;" %></a>
+        <a href="https://twitter.com/Hackbyrd"><%= image_tag "social/twitter_gray.svg", :class => "social-link" %></a>
+        <a href="https://plus.google.com/u/0/+JonathanChenHackbyrd"><%= image_tag "social/googleplus_gray.svg", :class => "social-link" %></a>
+      </div>
+
+      <%# appears in sm screens %>
+      <div class="social-link-box visible-sm">
+        <a href="mailto:jxmoneyz@gmail.com"><%= image_tag "social/email_gray.svg", :class => "social-link", :style => "margin-left: 0px;" %></a>
+        <a href="https://www.linkedin.com/in/hackbyrd"><%= image_tag "social/linkedin_gray.svg", :class => "social-link" %></a>
+      </div>
+      <div class="social-link-box visible-sm">
+        <a href="https://www.facebook.com/hackbyrd"><%= image_tag "social/facebook_gray.svg", :class => "social-link", :style => "margin-left: 0px;" %></a>
+        <a href="https://twitter.com/Hackbyrd"><%= image_tag "social/twitter_gray.svg", :class => "social-link" %></a>
+      </div>
+      <div class="social-link-box visible-sm">
+        <a href="https://github.com/Hackbyrd"><%= image_tag "social/github_gray.svg", :class => "social-link", :style => "margin-left: 0px;" %></a>
         <a href="https://plus.google.com/u/0/+JonathanChenHackbyrd"><%= image_tag "social/googleplus_gray.svg", :class => "social-link" %></a>
       </div>
     </div>
@@ -48,70 +80,62 @@
 <div id="about-content-container">
   <div id="about-content-diagonal">
 
-    <div class="about-content-inner">
-      <h1>Hello, I am <b class="text-red">Jonathan Chen</b>!
+    <div class="about-content-inner" style="margin-bottom: 50px;">
+      <h1>Hello, I'm <b class="text-red">Jonathan</b> Chen</h1>
     </div>
 
     <div class="about-content-inner">
       <%= image_tag "about/maryland-state.png" %>
     </div>
 
-    <div class="about-content-inner">
-      <h2>I was born and raised in Montgomery County, <b class="text-red">Maryland</b>.</h2>
+    <div class="about-content-inner" style="min-height: 10px">
+      <h2 style="display: inline">I was born and raised in Montgomery County, <b class="text-red">Maryland</b></h2>
     </div>
 
     <div class="about-content-inner">
+      <h2>where I attended...</h2>
       <%= image_tag "about/travilah.jpg", :class => "school-img" %>
       <%= image_tag "about/frost.jpg", :class => "school-img" %>
-      <%= image_tag "about/wootton.jpg", :class => "school-img" %>
+      <%= image_tag "about/wootton.jpg", :class => "school-img", :style => "margin-right: 0px;" %>
+      <br/>
+      <span class="img-caption"><b class="text-red">Travilah</b><br/>Elementary School</span>
+      <span class="img-caption"><b class="text-red">Frost</b><br/>Middle School</span>
+      <span class="img-caption" style="margin-right: 0px"><b class="text-red">Wootton</b><br/>High School</span>
     </div>
 
     <div class="about-content-inner">
-      <h2>I attended <b class="text-red">Travilah</b> Elementary School, Robert <b class="text-red">Frost</b> Middle School, and Thomas <b class="text-red">Wootton</b> High School.</h2>
+      <div class="bar redbar float-center" style="margin-top: 35px"></div>
+    </div>
+
+    <div class="about-content-inner" style="min-height: 10px;">
+      <h2>I grew up with a loving <b class="text-red">family</b></h2>
+    </div>
+
+    <div class="about-content-inner" style="margin-bottom: 0px;">
+      <%= image_tag "about/mom_me.jpg", :class => "family-img gray" %>
+      <%= image_tag "about/dad_me.jpg", :class => "family-img red", :style => "margin-right: 0px;" %>
+    </div>
+
+    <div class="about-content-inner" style="margin-top: 0px; padding-top: 0px;">
+      <%= image_tag "about/brother_me.jpg", :class => "family-img red" %>
+      <%= image_tag "about/grandparents_me.jpg", :class => "family-img gray", :style => "margin-right: 0px;" %>
+    </div>
+
+    <div class="about-content-inner" style="margin-top: 30px;">
+      <h2 class="taiwan-text">We are from <b class="text-red">Taiwan</b></h2>
+      <%= image_tag "about/taiwan-island.svg", :class => "taiwan-island" %>
     </div>
 
     <div class="about-content-inner">
-    asdfasdfasdf
+      <div class="bar graybar" style="margin-top: 0px"></div>
     </div>
 
     <div class="about-content-inner">
-    asdfasdfad
+      <h2>Some <b class="text-red">hobbies</b> of mine include</h2>
     </div>
 
     <div class="about-content-inner">
-    asdfasdfds
-    </div>
-
-    <div class="about-content-inner">
-    asdf
-    </div>
-
-    <div class="about-content-inner">
-    asdfasdfasdf
-    </div>
-
-    <div class="about-content-inner">
-    asdfasdfad
-    </div>
-
-    <div class="about-content-inner">
-    asdfasdfds
-    </div>
-
-    <div class="about-content-inner">
-    asdf
-    </div>
-
-    <div class="about-content-inner">
-    asdfasdfasdf
-    </div>
-
-    <div class="about-content-inner">
-    asdfasdfad
-    </div>
-
-    <div class="about-content-inner">
-    asdfasdfds
+      To be continued...
     </div>
 
   </div>

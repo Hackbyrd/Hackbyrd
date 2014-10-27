@@ -20,10 +20,14 @@ $(document).ready(function() {
   // set diagonal position right
   setDiagonalPosition();
 
+  // set social links position
+  setSocialLinksPosition();
+
   // on window resize, make background fit screen height, and diagonal position correct
   $(window).resize(function() {
     setBackground();
     setDiagonalPosition();
+    setSocialLinksPosition();
   });
 
   // scroll position
@@ -41,28 +45,8 @@ $(document).ready(function() {
     // move the diagonal div when scroll gets
     setDiagonalPosition();
 
-    // if hits top, move social links back in place
-    if($(window).scrollTop() <= 0) {
-      $(".social-link-box").css("marginLeft", (parseInt($("#about-background-left").css("width"), 10) - 290)/2 + "px");
-
-      if($(window).width() > 1299) {
-
-      } else if($(window).width() > 1199) {
-        $(".social-link").css("height", 40);
-        $(".social-link").css("width", 40);
-        $(".social-link-box").css("height", 40);
-      }
-    } else {
-      $(".social-link-box").css("marginLeft", 10);
-
-      if($(window).width() > 1299) {
-
-      } else if($(window).width() > 1199) {
-        $(".social-link").css("height", 30);
-        $(".social-link").css("width", 30);
-        $(".social-link-box").css("height", 30);
-      }
-    }
+    // set social links position
+    setSocialLinksPosition();
 
   });
 
@@ -109,14 +93,55 @@ function setBackground () {
     $("#about-background-left").css("width", "100%");
     $("#about-background-right").css("width", "0%");
   }
-
-  // center social links
-  $(".social-link-box").css("marginLeft", (parseInt($("#about-background-left").css("width"), 10) - 290)/2 + "px");
 }
 
 // set diagonal positioning
 function setDiagonalPosition() {
   $("#about-content-diagonal").css("left", ($(window).width()/2 + ((tanDeg(15) * $(window).height())/2)) - ($(this).scrollTop() * tanDeg(15)));
+}
+
+
+// set social link positioning
+function setSocialLinksPosition() {
+  // if hits top, move social links back in place
+  if($(window).scrollTop() <= 0) {
+    if($(window).width() > 1299 || $(window).width() < 768) {
+      $(".social-link").css("height", 40);
+      $(".social-link").css("width", 40);
+      $(".social-link-box").css("height", 40);
+      $(".social-link-box").css("marginLeft", (parseInt($("#about-background-left").css("width"), 10) - 290)/2 + "px");
+    } else {
+      $(".social-link").css("height", 35);
+      $(".social-link").css("width", 35);
+      $(".social-link-box").css("height", 35);
+      $(".social-link-box").css("marginLeft", (parseInt($("#about-background-left").css("width"), 10) - 260)/2 + "px");
+    }
+
+    $(".visible-xs-lg").css("display", "block");
+    $(".visible-md").css("display", "none");
+    $(".visible-sm").css("display", "none");
+  } else {
+    $(".social-link-box").css("marginLeft", 10);
+    $(".social-link").css("height", 35);
+    $(".social-link").css("width", 35);
+    $(".social-link-box").css("height", 35);
+
+    if($(window).width() > 1199) {
+      $(".visible-xs-lg").css("display", "block");
+      $(".visible-md").css("display", "none");
+      $(".visible-sm").css("display", "none");
+    } else if($(window).width() > 991) {
+      $(".visible-xs-lg").css("display", "none");
+      $(".visible-md").css("display", "block");
+      $(".visible-sm").css("display", "none");
+    } else if($(window).width() > 767) {
+      $(".visible-xs-lg").css("display", "none");
+      $(".visible-md").css("display", "none");
+      $(".visible-sm").css("display", "block");
+    } else {
+
+    }
+  }
 }
 
 // get tangent of degree to help with diagonal scrolling
