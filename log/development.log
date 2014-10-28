@@ -90990,3 +90990,1296 @@ Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-27 00:40:
 
 
 Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-27 00:40:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-28 00:02:04 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered layouts/_jonathan_chen.html.erb (0.5ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (155.0ms)
+Completed 500 Internal Server Error in 162ms
+
+ActionView::Template::Error (undefined local variable or method `portfolio_path' for #<#<Class:0x007ff2e94962e8>:0x007ff2e9495168>):
+    40: <section class="color-blue">
+    41:   <nav class="cl-effect-blue text-center">
+    42:     <a href="<%= about_path %>" class="wow bounceInDown" data-wow-delay="0s">About</a>
+    43:     <a href="<%= portfolio_path %>" class="wow bounceInDown" data-wow-delay=".15s">Portfolio</a>
+    44:     <a href="<%= fiscalnote_path %>" class="wow bounceInDown" data-wow-delay=".3s">FiscalNote</a>
+    45:     <a href="<%= contact_path %>" class="wow bounceInDown" data-wow-delay=".45s">Contact</a>
+    46:     <a href="https://medium.com/@Hackbyrd" class="wow bounceInDown" data-wow-delay=".6s">Blog</a>
+  app/views/hackbyrd/home.html.erb:43:in `_app_views_hackbyrd_home_html_erb___2142872361815457368_70340636212640'
+
+
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered layouts/_jonathan_chen.html.erb (0.1ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (24.5ms)
+  Rendered layouts/_google_analytics.html.erb (0.5ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:33 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:34 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:34 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-28 00:03:34 -0400
+
+
+Started GET "/assets/JC_logo-fixed.svg" for 127.0.0.1 at 2014-10-28 00:03:34 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:03:35 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+Processing by HackbyrdController#about as HTML
+  Rendered layouts/_side_navigation.html.erb (39.9ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (103.5ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 280ms (Views: 279.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:03:42 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:03:43 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:04:25 -0400
+Processing by HackbyrdController#about as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/side-navigation.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+  Rendered layouts/_side_navigation.html.erb (313.2ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (320.4ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 330ms (Views: 329.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:04:26 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:04:27 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+Processing by HackbyrdController#about as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/side-navigation.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+  Rendered layouts/_side_navigation.html.erb (40.1ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (104.6ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 138ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:35 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:04:36 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+Processing by HackbyrdController#about as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/side-navigation.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+  Rendered layouts/_side_navigation.html.erb (46.7ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (60.3ms)
+  Rendered layouts/_google_analytics.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:04:52 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:04:53 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:04:53 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:04:53 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:18:08 -0400
+Processing by HackbyrdController#about as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/about.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+  Rendered layouts/_side_navigation.html.erb (7.3ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (186.6ms)
+  Rendered layouts/_google_analytics.html.erb (0.2ms)
+Completed 200 OK in 211ms (Views: 206.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:18:09 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:18:10 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:10 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:10 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:10 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:18:10 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:10 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:18:10 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:18:10 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+Processing by HackbyrdController#about as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/about.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+  Rendered layouts/_side_navigation.html.erb (4.9ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (151.9ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 158ms (Views: 157.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:53 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:18:54 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:19:06 -0400
+Processing by HackbyrdController#about as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/about.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+  Rendered layouts/_side_navigation.html.erb (1.4ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (97.8ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:19:07 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:19:08 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+Processing by HackbyrdController#about as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/about.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007ff2eabe6f88>
+
+  Rendered layouts/_side_navigation.html.erb (0.8ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (117.7ms)
+  Rendered layouts/_google_analytics.html.erb (0.0ms)
+Completed 200 OK in 128ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:19:37 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:19:38 -0400
+
+
+Started GET "/" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered layouts/_jonathan_chen.html.erb (0.2ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/navigation.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/home.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/JC_logo-fixed.svg" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/home.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:14 -0400
+
+
+Started GET "/about" for 192.168.1.10 at 2014-10-28 00:20:20 -0400
+Processing by HackbyrdController#about as HTML
+  Rendered layouts/_side_navigation.html.erb (1.4ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_google_analytics.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:20 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:20 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:20 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:20 -0400
+
+
+Started GET "/about" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+Processing by HackbyrdController#about as HTML
+  Rendered layouts/_side_navigation.html.erb (0.9ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_google_analytics.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 192.168.1.10 at 2014-10-28 00:20:27 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+Processing by HackbyrdController#about as HTML
+  Rendered layouts/_side_navigation.html.erb (1.9ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_google_analytics.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:20:35 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:20:36 -0400
+
+
+Started GET "/about" for 192.168.1.10 at 2014-10-28 00:20:46 -0400
+Processing by HackbyrdController#about as HTML
+  Rendered layouts/_side_navigation.html.erb (1.4ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_google_analytics.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400

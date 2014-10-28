@@ -6,13 +6,13 @@ class HackbyrdController < ApplicationController
   def about
   end
 
-  def work
+  def fiscalnote
   end
 
-  def projects
+  def portfolio
   end
 
-  def press
+  def contact
   end
 
   def snake

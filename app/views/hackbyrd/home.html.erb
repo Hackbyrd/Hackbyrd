@@ -24,13 +24,14 @@
 <div class="la-anim-10"></div>
 
 <%# Welcome message %>
-<h1 class="animated bounceInDown">Scroll Down <%= image_tag "arrow_down.svg", :class => "arrow-down" %></h1>
+<h1 class="animated bounceInDown hidden-xs">Scroll Down <%= image_tag "arrow_down.svg", :class => "arrow-down" %></h1>
 
 <%# If user hasn't scrolled yet, remind them %>
-<h4 class="wow fadeIn" data-wow-duration=".5s" data-wow-delay="3s">What are you waiting for?</h4>
+<h4 class="wow fadeIn hidden-xs" data-wow-duration=".5s" data-wow-delay="3s">What are you waiting for?</h4>
 
 <%# Logo %>
-<%= image_tag "JC_logo-fixed.svg", :id => "jc-logo" %>
+<%= image_tag "JC_logo-fixed.svg", :id => "jc-logo", :class => "hidden-xs" %>
+<%= image_tag "JC_logo-fixed.svg", :class => "visible-xs" %>
 
 <%# Jonathan Chen %>
 <%= render "layouts/jonathan_chen" %>
@@ -39,9 +40,9 @@
 <section class="color-blue">
   <nav class="cl-effect-blue text-center">
     <a href="<%= about_path %>" class="wow bounceInDown" data-wow-delay="0s">About</a>
-    <a href="<%= work_path %>" class="wow bounceInDown" data-wow-delay=".15s">Work</a>
-    <a href="<%= projects_path %>" class="wow bounceInDown" data-wow-delay=".3s">Projects</a>
-    <a href="<%= press_path %>" class="wow bounceInDown" data-wow-delay=".45s">Press</a>
+    <a href="<%= portfolio_path %>" class="wow bounceInDown" data-wow-delay=".15s">Portfolio</a>
+    <a href="<%= fiscalnote_path %>" class="wow bounceInDown" data-wow-delay=".3s">FiscalNote</a>
+    <a href="<%= contact_path %>" class="wow bounceInDown" data-wow-delay=".45s">Contact</a>
     <a href="https://medium.com/@Hackbyrd" class="wow bounceInDown" data-wow-delay=".6s">Blog</a>
   </nav>
 </section>
