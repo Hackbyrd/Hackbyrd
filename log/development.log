@@ -92283,3 +92283,737 @@ Started GET "/assets/about/mom_me.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -
 
 
 Started GET "/assets/about/background-light.jpg" for 192.168.1.10 at 2014-10-28 00:20:47 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-28 00:32:47 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered layouts/_jonathan_chen.html.erb (0.4ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (108.8ms)
+  Rendered layouts/_google_analytics.html.erb (0.5ms)
+Completed 200 OK in 235ms (Views: 233.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:47 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:47 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:47 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:47 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:47 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/assets/JC_logo-fixed.svg" for 127.0.0.1 at 2014-10-28 00:32:48 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+Processing by HackbyrdController#about as HTML
+  Rendered layouts/_side_navigation.html.erb (150.2ms)
+  Rendered hackbyrd/about.html.erb within layouts/application (209.2ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 282ms (Views: 280.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/side-navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:54 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/side-navigation/3lines.svg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/social/email_gray.svg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/side-navigation/cross.svg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/social/twitter_gray.svg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/social/facebook_gray.svg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/social/linkedin_gray.svg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/social/github_gray.svg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/social/googleplus_gray.svg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/maryland-state.png" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/travilah.jpg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/wootton.jpg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/mom_me.jpg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/frost.jpg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/dad_me.jpg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/brother_me.jpg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/grandparents_me.jpg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/taiwan-island.svg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/assets/about/background-light.jpg" for 127.0.0.1 at 2014-10-28 00:32:55 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:33:05 -0400
+Processing by HackbyrdController#portfolio as HTML
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (47.9ms)
+  Rendered layouts/_google_analytics.html.erb (1.2ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:33:05 -0400
+
+
+Started GET "/stylesheets/porfolio.css" for 127.0.0.1 at 2014-10-28 00:33:05 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/porfolio.css"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Jonathan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Jonathan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Jonathan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.2ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (34.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:06 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:33:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:06 -0400
+
+
+Started GET "/javascripts/porfolio.js" for 127.0.0.1 at 2014-10-28 00:33:06 -0400
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/porfolio.js"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Jonathan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Jonathan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Jonathan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/Jonathan/.rvm/gems/ruby-2.1.2@railstutorial_rails_4_0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.1ms)
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:06 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:06 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:33:06 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:33:22 -0400
+Processing by HackbyrdController#portfolio as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/portfolio.scssc: can't dump anonymous class #<Class:0x007fc71a5fed88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007fc71a5fed88>
+
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (97.9ms)
+  Rendered layouts/_google_analytics.html.erb (0.3ms)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:33:22 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:33:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:23 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:33:23 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:23 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:33:23 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:33:23 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:33:24 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:34:23 -0400
+Processing by HackbyrdController#portfolio as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/portfolio.scssc: can't dump anonymous class #<Class:0x007fc71a5fed88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007fc71a5fed88>
+
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (157.8ms)
+  Rendered layouts/_google_analytics.html.erb (0.4ms)
+Completed 200 OK in 199ms (Views: 198.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:34:24 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:34:25 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:35:32 -0400
+Processing by HackbyrdController#portfolio as HTML
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (75.4ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 99ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:35:33 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:35:34 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:36:13 -0400
+Processing by HackbyrdController#portfolio as HTML
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (42.6ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:36:14 -0400
+
+
+Started GET "/assets/hackbyrd.ico" for 127.0.0.1 at 2014-10-28 00:36:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-28 00:36:44 -0400
+Processing by HackbyrdController#home as HTML
+  Rendered layouts/_jonathan_chen.html.erb (0.2ms)
+  Rendered hackbyrd/home.html.erb within layouts/application (65.9ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/animate.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/link_loading.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/svg_draw.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/wow.min.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/arrow_down.svg" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/JC_logo-fixed.svg" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:45 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+Processing by HackbyrdController#portfolio as HTML
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (53.1ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:36:47 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:38:25 -0400
+Processing by HackbyrdController#portfolio as HTML
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (55.7ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 73ms (Views: 72.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:38:25 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:38:25 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:38:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:25 -0400
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:26 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:26 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:26 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:38:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:26 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+Processing by HackbyrdController#portfolio as HTML
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (28.8ms)
+  Rendered layouts/_google_analytics.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:38:58 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+Processing by HackbyrdController#portfolio as HTML
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (30.3ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:40:09 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+Processing by HackbyrdController#portfolio as HTML
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (62.5ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:40:20 -0400
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+Processing by HackbyrdController#portfolio as HTML
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/portfolio.scssc: can't dump anonymous class #<Class:0x007fc71a5fed88>
+
+Warning. Error encountered while saving cache 399a770d1ee11092c078db1d44145ba8e9c3bb38/variables.scssc: can't dump anonymous class #<Class:0x007fc71a5fed88>
+
+  Rendered hackbyrd/portfolio.html.erb within layouts/application (221.1ms)
+  Rendered layouts/_google_analytics.html.erb (0.4ms)
+Completed 200 OK in 283ms (Views: 281.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/assets/particleground.js?body=1" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/assets/side-navigation.js?body=1" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/assets/social/github_white.svg" for 127.0.0.1 at 2014-10-28 00:41:00 -0400
+
+
+Started GET "/andrea" for 127.0.0.1 at 2014-10-28 00:41:13 -0400
+Processing by HackbyrdController#andrea as HTML
+  Rendered hackbyrd/andrea.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2014-10-28 00:41:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-28 00:41:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-28 00:41:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-28 00:41:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-28 00:41:13 -0400

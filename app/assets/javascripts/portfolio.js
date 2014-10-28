@@ -13,7 +13,7 @@ $(document).ready(function() {
     setHeights();
   });
 
-  // particles
+  // particles, original color: #5cbdaa
   $('#particles').particleground({
     dotColor: '#5cbdaa',
     lineColor: '#5cbdaa',
