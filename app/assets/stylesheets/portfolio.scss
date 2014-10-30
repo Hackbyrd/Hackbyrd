@@ -9,11 +9,69 @@ body {
   color: #fff;
   line-height: 1.3;
   -webkit-font-smoothing: antialiased;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+// rocket stuff
+#jcrocket {
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: -2;
+
+  // xs screen
+  @media (max-width: $max-screen-xs) {
+    height: 120px;
+    width: 440px;
+  }
+
+  // sm screen
+  @media (min-width: $min-screen-sm) and (max-width: $max-screen-sm) {
+    height: 180px;
+    width: 660px;
+  }
+
+  // md screen and large screen
+  @media (min-width: $min-screen-md) {
+    height: 240px;
+    width: 880px;
+  }
+}
+
+.jcrocket-1 {
+  background-image: image-url("portfolio/rocket1.svg");
+}
+
+.jcrocket-2 {
+  background-image: image-url("portfolio/rocket2.svg");
+}
+
+.jcrocket-3 {
+  background-image: image-url("portfolio/rocket3.svg");
+}
+
+#sun {
+  position: fixed;
+  height: 150px;
+  width: 150px;
+  top: 50px;
+  right: 0;
+  z-index: -4;
+  background-repeat: no-repeat;
+  background-image: image-url("portfolio/sun.svg");
+}
+
+.background-star {
+  position: fixed;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+  z-index: -5;
 }
 
 #particles {
-  background: #16a085;
-  // background-color: black;
+  // background: #16a085;
+  background-color: black;
   width: 100%;
   overflow: hidden;
 }
@@ -28,13 +86,32 @@ body {
 
 h1 {
   text-transform: uppercase;
-  font-size: 85px;
   font-weight: 700;
   letter-spacing: 0.015em;
+
+  // xs screen
+  @media (max-width: $max-screen-xs) {
+    font-size: 52px;
+  }
+
+  // sm screen
+  @media (min-width: $min-screen-sm) and (max-width: $max-screen-sm) {
+    font-size: 62px;
+  }
+
+  // md screen and large screen
+  @media (min-width: $min-screen-md) {
+    font-size: 85px;
+  }
 
   .github-link {
     height: 60px;
     width: 60px;
+
+    // xs screen
+    @media (max-width: $max-screen-xs) {
+      display: none;
+    }
   }
 }
 
@@ -51,6 +128,21 @@ h1::after {
 p {
   margin: 0 0 30px 0;
   font-size: 24px;
+
+  // xs screen
+  @media (max-width: $max-screen-xs) {
+    font-size: 16px;
+  }
+
+  // sm screen
+  @media (min-width: $min-screen-sm) and (max-width: $max-screen-sm) {
+    font-size: 20px;
+  }
+
+  // md screen and large screen
+  @media (min-width: $min-screen-md) {
+    font-size: 24px;
+  }
 }
 
 .btn {
@@ -71,7 +163,9 @@ p {
        -o-transition: all 0.4s;
           transition: all 0.4s;
 }
+
+// orginal color: #005544
 .btn:hover {
-  color: #005544;
-  border-color: #005544;
+  color: #BDBDBD;
+  border-color: #BDBDBD;
 }
