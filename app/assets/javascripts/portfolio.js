@@ -1,10 +1,11 @@
 $(document).ready(function() {
 
-  // set height to window height
+  // set height to window height and width
   setHeights();
+  setWidths();
 
-  // set the top offset of each asteroid
-  positionAsteroids();
+  // generate random asteroids
+  generateAsteroids(30, 300, -($(document).height()/5), -($(document).height()/3));
 
   // generate background stars
   generateBackgroundStars();
@@ -12,6 +13,7 @@ $(document).ready(function() {
   // on window resize, make background fit screen height
   $(window).resize(function() {
     setHeights();
+    setWidths();
     animateSun();
     animateAsteroids();
   });
@@ -42,8 +44,20 @@ $(document).ready(function() {
   });
 
   // scroll to first portfolio
-  $(document).on("click", "#see-portfolio", function(){
-    scrollToElement("#portfolio-1");
+  $(document).on("click", "#see-portfolio", function() {
+    scrollToElement("#portfolio-1", 3000);
+  });
+
+  // panel click
+  $(document).on("click", ".panel-btn", function() {
+    var numStr = this.getAttribute('id').substring(this.getAttribute('id').indexOf("-") + 1);
+
+    // scroll to top if at last panel
+    if (numStr == "0") {
+      scrollToElement("#particles", $(".panel-btn").length * 3000);
+    } else {
+      scrollToElement("#portfolio-" + numStr, 3000);
+    }
   });
 
 });
@@ -53,14 +67,22 @@ $(document).ready(function() {
 // set heights
 function setHeights () {
   $(".window-height").css("height", $(window).height());
+  $(".window-height-3x").css("height", $(window).height() * 3);
   $('.intro').css({ 'margin-top': -($('.intro').height() / 2) });
   $("#jcrocket").css("top", ($(window).height()/2) - (parseInt($("#jcrocket").css("height"))/2));
   $("#jcrocket").css("left", ($(window).width()/2) - (parseInt($("#jcrocket").css("width"))/2));
 }
 
+// set width
+function setWidths () {
+  $(".window-width").css("width", $(window).width());
+  $(".window-width-2").css("width", $(window).width()/2);
+  $(".window-width-3").css("width", $(window).width()/3);
+  $(".window-width-4").css("width", $(window).width()/4);
+}
+
 // scroll to an element
-function scrollToElement(target) {
-  var speed = 1000;
+function scrollToElement(target, speed) {
   var destination = jQuery(target).offset().top;
   jQuery( 'html:not(:animated),body:not(:animated)' ).animate( { scrollTop: destination}, speed, function() {
       window.location.hash = target;
@@ -123,19 +145,60 @@ function animateAsteroids() {
 
 }
 
-// set the top offset of asteroids
-function positionAsteroids() {
+// generate Asteroids
+function generateAsteroids(min_size, max_size, min_right, max_right) {
+
+  // min_right has to be less than -2000
+  if (min_right > -2000) {
+    min_right = -2000;
+  }
 
   // set the top offset of each asteroid to a random top
   for (var i = 0; i < $(".asteroid").length; i++) {
-    var ranTop = Math.floor((Math.random() * $(window).height() - parseInt($("#asteroid-" + i).css("height"), 10)) + 1);
+    var ranSize = Math.floor((Math.random() * (max_size - min_size)) + 1) + min_size; // inbetween the max and min sizes
+    var ranTop = Math.floor((Math.random() * $(window).height()) + 1);
+    var ranZindex = Math.floor((Math.random() * 2) + 1); // 1 - 2
+    var ranRight = Math.floor((Math.random() * (max_right - min_right)) - 1) + min_right;
+    var ranRotateSecs = Math.floor((Math.random() * 4) + 1); // 1 - 4
+
+    // set asteroid one to left most rock
+    if (i == 1) {
+      ranRight = min_right + 1;
+    } else if(i == 0) {
+      ranRight = max_right - 1;
+    }
+
+    // make sure top does not get cut off screen
+    if (ranTop <= (ranSize/2)) {
+      ranTop = ranTop + (ranSize/2);
+    } else if (ranTop >= ($(window).height() - ranSize)) {
+      ranTop = ranTop - ranSize;
+    }
+
+    // set attributes
     $("#asteroid-" + i).css("top", ranTop);
+    $("#asteroid-" + i).css("height", ranSize);
+    $("#asteroid-" + i).css("width", ranSize);
+    $("#asteroid-" + i).css("right", ranRight);
+    $("#asteroid-" + i).attr("name", ranRight + "");
+
+    // set z index randomly
+    if (ranZindex == 1) {
+      $("#asteroid-" + i).css("z-index", -1);
+      $("#asteroid-" + i).addClass("rotating-clockwise-" + ranRotateSecs + "s");
+
+    } else {
+      $("#asteroid-" + i).css("z-index", -3);
+      $("#asteroid-" + i).addClass("rotating-counter-clockwise-" + ranRotateSecs + "s");
+    }
+
   }
+
 }
 
 // create background stars
 function generateBackgroundStars() {
-  var numStars = ($(window).height() * $(window).width())/10000;
+  var numStars = ($(window).height() * $(window).width())/8000;
   var insertStars = "";
 
   for (var i = 0; i < numStars; i++) {

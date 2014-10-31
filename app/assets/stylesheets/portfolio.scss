@@ -61,6 +61,13 @@ body {
   background-image: image-url("portfolio/sun.svg");
 }
 
+.asteroid {
+  position: fixed;
+  background-repeat: no-repeat;
+  background-image: image-url("portfolio/asteroid.svg");
+  // rotating is in variables.scss
+}
+
 .background-star {
   position: fixed;
   background-color: white;
@@ -168,4 +175,12 @@ p {
 .btn:hover {
   color: #BDBDBD;
   border-color: #BDBDBD;
+}
+
+.panel-btn {
+  margin: 10px auto;
+}
+
+.content-panel {
+  width: 100%;
 }

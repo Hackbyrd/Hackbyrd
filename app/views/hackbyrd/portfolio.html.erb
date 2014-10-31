@@ -1,7 +1,7 @@
 <%# Extra stylesheets (CSS) just for this page. %>
 <% content_for :extra_stylesheets do %>
   <%= stylesheet_link_tag "portfolio" %>
-  <%= stylesheet_link_tag "asteroids" %>
+  <%= stylesheet_link_tag "rotating" %>
 <% end %>
 
 <%# Extra Javascript just for this page. %>
@@ -15,33 +15,57 @@
 <div id="sun"></div>
 
 <%# asteroids %>
-<div name="-1100" class="asteroid rotating-clockwise-3s" id="asteroid-1"></div>
-<div name="-1310" class="asteroid rotating-clockwise-1s" id="asteroid-2"></div>
-<div name="-1330" class="asteroid rotating-counter-clockwise-2s" id="asteroid-3"></div>
-<div name="-1500" class="asteroid rotating-clockwise-3s" id="asteroid-4"></div>
-<div name="-1550" class="asteroid rotating-clockwise-1s" id="asteroid-5"></div>
-<div name="-1570" class="asteroid rotating-counter-clockwise-4s" id="asteroid-6"></div>
-<div name="-1750" class="asteroid rotating-clockwise-4s" id="asteroid-7"></div>
-<div name="-1790" class="asteroid rotating-counter-clockwise-2s" id="asteroid-8"></div>
-<div name="-1870" class="asteroid rotating-clockwise-3s" id="asteroid-9"></div>
-<div name="-1990" class="asteroid rotating-counter-clockwise-3s" id="asteroid-10"></div>
-<div name="-2080" class="asteroid rotating-clockwise-1s" id="asteroid-11"></div>
-<div name="-2150" class="asteroid rotating-counter-clockwise-1s" id="asteroid-12"></div>
-
-<div name="-2270" class="asteroid rotating-clockwise-3s" id="asteroid-13"></div>
-<div name="-2290" class="asteroid rotating-clockwise-1s" id="asteroid-14"></div>
-<div name="-2330" class="asteroid rotating-counter-clockwise-2s" id="asteroid-15"></div>
-<div name="-2400" class="asteroid rotating-clockwise-3s" id="asteroid-16"></div>
-<div name="-2510" class="asteroid rotating-clockwise-1s" id="asteroid-17"></div>
-<div name="-2570" class="asteroid rotating-counter-clockwise-4s" id="asteroid-18"></div>
-<div name="-2750" class="asteroid rotating-clockwise-4s" id="asteroid-19"></div>
-<div name="-2790" class="asteroid rotating-counter-clockwise-2s" id="asteroid-20"></div>
-<div name="-2870" class="asteroid rotating-clockwise-3s" id="asteroid-21"></div>
-<div name="-2990" class="asteroid rotating-counter-clockwise-3s" id="asteroid-22"></div>
-<div name="-3040" class="asteroid rotating-clockwise-1s" id="asteroid-23"></div>
-<div name="-3150" class="asteroid rotating-counter-clockwise-1s" id="asteroid-24"></div>
-<div name="-3280" class="asteroid rotating-counter-clockwise-4s" id="asteroid-25"></div>
-<div name="-3400" class="asteroid rotating-counter-clockwise-4s" id="asteroid-0"></div>
+<div class="asteroid" id="asteroid-0"></div>
+<div class="asteroid" id="asteroid-1"></div>
+<div class="asteroid" id="asteroid-2"></div>
+<div class="asteroid" id="asteroid-3"></div>
+<div class="asteroid" id="asteroid-4"></div>
+<div class="asteroid" id="asteroid-5"></div>
+<div class="asteroid" id="asteroid-6"></div>
+<div class="asteroid" id="asteroid-7"></div>
+<div class="asteroid" id="asteroid-8"></div>
+<div class="asteroid" id="asteroid-9"></div>
+<div class="asteroid" id="asteroid-10"></div>
+<div class="asteroid" id="asteroid-11"></div>
+<div class="asteroid" id="asteroid-12"></div>
+<div class="asteroid" id="asteroid-13"></div>
+<div class="asteroid" id="asteroid-14"></div>
+<div class="asteroid" id="asteroid-15"></div>
+<div class="asteroid" id="asteroid-16"></div>
+<div class="asteroid" id="asteroid-17"></div>
+<div class="asteroid" id="asteroid-18"></div>
+<div class="asteroid" id="asteroid-19"></div>
+<div class="asteroid" id="asteroid-20"></div>
+<div class="asteroid" id="asteroid-21"></div>
+<div class="asteroid" id="asteroid-22"></div>
+<div class="asteroid" id="asteroid-23"></div>
+<div class="asteroid" id="asteroid-24"></div>
+<div class="asteroid" id="asteroid-25"></div>
+<div class="asteroid" id="asteroid-26"></div>
+<div class="asteroid" id="asteroid-27"></div>
+<div class="asteroid" id="asteroid-28"></div>
+<div class="asteroid" id="asteroid-29"></div>
+<div class="asteroid" id="asteroid-30"></div>
+<div class="asteroid" id="asteroid-31"></div>
+<div class="asteroid" id="asteroid-32"></div>
+<div class="asteroid" id="asteroid-33"></div>
+<div class="asteroid" id="asteroid-34"></div>
+<div class="asteroid" id="asteroid-35"></div>
+<div class="asteroid" id="asteroid-36"></div>
+<div class="asteroid" id="asteroid-37"></div>
+<div class="asteroid" id="asteroid-38"></div>
+<div class="asteroid" id="asteroid-39"></div>
+<div class="asteroid" id="asteroid-40"></div>
+<!--<div class="asteroid" id="asteroid-41"></div>
+<div class="asteroid" id="asteroid-42"></div>
+<div class="asteroid" id="asteroid-43"></div>
+<div class="asteroid" id="asteroid-44"></div>
+<div class="asteroid" id="asteroid-45"></div>
+<div class="asteroid" id="asteroid-46"></div>
+<div class="asteroid" id="asteroid-47"></div>
+<div class="asteroid" id="asteroid-48"></div>
+<div class="asteroid" id="asteroid-49"></div>
+<div class="asteroid" id="asteroid-50"></div> -->
 
 <%# stars %>
 <div class="background-star" id="star-1"></div>
@@ -52,13 +76,28 @@
 <div id="particles" class="window-height">
   <div class="intro">
     <h1><a href="https://www.github.com/hackbyrd" target="_blank"><%= image_tag "social/github_white.svg", :class => "github-link" %></a> Hackbyrd</h1>
-    <p>The sky is not the limit</p>
-    <button class="btn" id="see-portfolio">Coming Soon</button>
+    <p>Reach for the stars</p>
+    <button class="btn" id="see-portfolio">Start Exploring</button>
   </div>
 </div>
 
-<div class="window-height" style="width: 100%; background-color: transparent"></div>
-<div class="window-height" style="width: 100%; background-color: transparent" id="portfolio-1"></div>
-<div class="window-height" style="width: 100%; background-color: transparent"></div>
-<div class="window-height" style="width: 100%; background-color: transparent"></div>
-<div class="window-height" style="width: 100%; background-color: transparent"></div>
+<%# Show Portfolio of past projects and designs %>
+<div class="window-height-3x" style="width: 100%; background-color: transparent"></div>
+<div class="content-panel window-height" id="portfolio-1" style="background-color: rgba(189, 148, 199, .9);">
+  <button class="btn panel-btn" id="seeportfolio-2">Next Destination</button>
+</div>
+
+<div class="window-height-3x" style="width: 100%; background-color: transparent"></div>
+<div class="content-panel window-height" id="portfolio-2" style="background-color: rgba(232, 239, 238, .9);">
+  <button class="btn panel-btn" id="seeportfolio-3">Next Destination</button>
+</div>
+
+<div class="window-height-3x" style="width: 100%; background-color: transparent"></div>
+<div class="content-panel window-height" id="portfolio-3" style="background-color: rgba(85, 148, 199, .9);">
+  <button class="btn panel-btn" id="seeportfolio-4">Next Destination</button>
+</div>
+
+<div class="window-height-3x" style="width: 100%; background-color: transparent"></div>
+<div class="content-panel window-height" id="portfolio-4" style="background-color: rgba(198, 124, 25, .9);">
+  <button class="btn panel-btn" id="seeportfolio-0">Return Home</button>
+</div>
