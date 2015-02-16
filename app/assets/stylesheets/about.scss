@@ -1,6 +1,11 @@
 // import other css
 @import 'variables.scss';
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Signika);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+@import url(http://fonts.googleapis.com/css?family=Alegreya);
 
 $about-gray-text: #D8D8D8;
 $about-red: #e62748;
@@ -12,7 +17,12 @@ html {
 }
 
 body {
-  font-family: cursive;
+  // font-family: cursive;
+  // font-family: 'Signika', sans-serif;
+  // font-family: 'Raleway', sans-serif;
+  // font-family: 'Lato', sans-serif;
+  // font-family: 'Cabin', sans-serif;
+  font-family: 'Alegreya', serif;
   background: $background-gray;
   color: $text-gray;
   margin: 0px;
@@ -84,7 +94,7 @@ body {
     }
 
     #learnmore-btn {
-      font-family: cursive;
+      font-family: 'Alegreya', serif;
       margin: 0px 20px;
       font-size: 20px;
       color: $about-white-text;
