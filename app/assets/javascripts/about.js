@@ -97,7 +97,8 @@ function setBackground () {
 
 // set diagonal positioning
 function setDiagonalPosition() {
-  $("#about-content-diagonal").css("left", ($(window).width()/2 + ((tanDeg(15) * $(window).height())/2)) - ($(this).scrollTop() * tanDeg(15)));
+  var dist = 1.45; // change this with more content
+  $("#about-content-diagonal").css("left", ($(window).width()/dist + ((tanDeg(15) * $(window).height())/dist)) - ($(this).scrollTop() * tanDeg(15)));
 }
 
 
