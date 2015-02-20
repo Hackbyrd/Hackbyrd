@@ -1,0 +1,116 @@
+.rotating-counter-clockwise-1s {
+  -webkit-animation: rotating-counter-clockwise 1s linear infinite;
+  -moz-animation: rotating-counter-clockwise 1s linear infinite;
+  -ms-animation: rotating-counter-clockwise 1s linear infinite;
+  -o-animation: rotating-counter-clockwise 1s linear infinite;
+  animation: rotating-counter-clockwise 1s linear infinite; }
+
+.rotating-counter-clockwise-2s {
+  -webkit-animation: rotating-counter-clockwise 2s linear infinite;
+  -moz-animation: rotating-counter-clockwise 2s linear infinite;
+  -ms-animation: rotating-counter-clockwise 2s linear infinite;
+  -o-animation: rotating-counter-clockwise 2s linear infinite;
+  animation: rotating-counter-clockwise 2s linear infinite; }
+
+.rotating-counter-clockwise-3s {
+  -webkit-animation: rotating-counter-clockwise 3s linear infinite;
+  -moz-animation: rotating-counter-clockwise 3s linear infinite;
+  -ms-animation: rotating-counter-clockwise 3s linear infinite;
+  -o-animation: rotating-counter-clockwise 3s linear infinite;
+  animation: rotating-counter-clockwise 3s linear infinite; }
+
+.rotating-counter-clockwise-4s {
+  -webkit-animation: rotating-counter-clockwise 4s linear infinite;
+  -moz-animation: rotating-counter-clockwise 4s linear infinite;
+  -ms-animation: rotating-counter-clockwise 4s linear infinite;
+  -o-animation: rotating-counter-clockwise 4s linear infinite;
+  animation: rotating-counter-clockwise 4s linear infinite; }
+
+@-webkit-keyframes rotating-counter-clockwise {
+  from {
+    -webkit-transform: rotate(0deg); }
+
+  to {
+    -webkit-transform: rotate(-360deg); } }
+@-moz-keyframes rotating-counter-clockwise {
+  from {
+    -moz-transform: rotate(0deg); }
+
+  to {
+    -moz-transform: rotate(-360deg); } }
+@-ms-keyframes rotating-counter-clockwise {
+  from {
+    -ms-transform: rotate(0deg); }
+
+  to {
+    -ms-transform: rotate(-360deg); } }
+@-o-keyframes rotating-counter-clockwise {
+  from {
+    -o-transform: rotate(0deg); }
+
+  to {
+    -o-transform: rotate(-360deg); } }
+@keyframes rotating-counter-clockwise {
+  from {
+    transform: rotate(0deg); }
+
+  to {
+    transform: rotate(-360deg); } }
+.rotating-clockwise-1s {
+  -webkit-animation: rotating-clockwise 1s linear infinite;
+  -moz-animation: rotating-clockwise 1s linear infinite;
+  -ms-animation: rotating-clockwise 1s linear infinite;
+  -o-animation: rotating-clockwise 1s linear infinite;
+  animation: rotating-clockwise 1s linear infinite; }
+
+.rotating-clockwise-2s {
+  -webkit-animation: rotating-clockwise 2s linear infinite;
+  -moz-animation: rotating-clockwise 2s linear infinite;
+  -ms-animation: rotating-clockwise 2s linear infinite;
+  -o-animation: rotating-clockwise 2s linear infinite;
+  animation: rotating-clockwise 2s linear infinite; }
+
+.rotating-clockwise-3s {
+  -webkit-animation: rotating-clockwise 3s linear infinite;
+  -moz-animation: rotating-clockwise 3s linear infinite;
+  -ms-animation: rotating-clockwise 3s linear infinite;
+  -o-animation: rotating-clockwise 3s linear infinite;
+  animation: rotating-clockwise 3s linear infinite; }
+
+.rotating-clockwise-4s {
+  -webkit-animation: rotating-clockwise 4s linear infinite;
+  -moz-animation: rotating-clockwise 4s linear infinite;
+  -ms-animation: rotating-clockwise 4s linear infinite;
+  -o-animation: rotating-clockwise 4s linear infinite;
+  animation: rotating-clockwise 4s linear infinite; }
+
+@-webkit-keyframes rotating-clockwise {
+  from {
+    -webkit-transform: rotate(0deg); }
+
+  to {
+    -webkit-transform: rotate(360deg); } }
+@-moz-keyframes rotating-clockwise {
+  from {
+    -moz-transform: rotate(0deg); }
+
+  to {
+    -moz-transform: rotate(360deg); } }
+@-ms-keyframes rotating-clockwise {
+  from {
+    -ms-transform: rotate(0deg); }
+
+  to {
+    -ms-transform: rotate(360deg); } }
+@-o-keyframes rotating-clockwise {
+  from {
+    -o-transform: rotate(0deg); }
+
+  to {
+    -o-transform: rotate(360deg); } }
+@keyframes rotating-clockwise {
+  from {
+    transform: rotate(0deg); }
+
+  to {
+    transform: rotate(360deg); } }
