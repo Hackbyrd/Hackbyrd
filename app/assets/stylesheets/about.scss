@@ -336,3 +336,16 @@ b.text-red {
     margin-left: auto;
   }
 }
+
+a.fiscalnote-link {
+  text-decoration: underline;
+  color: $about-gray-text;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: $about-gray-text;
+  }
+}
