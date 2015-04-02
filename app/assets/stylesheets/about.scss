@@ -17,11 +17,6 @@ html {
 }
 
 body {
-  // font-family: cursive;
-  // font-family: 'Signika', sans-serif;
-  // font-family: 'Raleway', sans-serif;
-  // font-family: 'Lato', sans-serif;
-  // font-family: 'Cabin', sans-serif;
   font-family: 'Alegreya', serif;
   background: $background-gray;
   color: $text-gray;
@@ -143,7 +138,7 @@ body {
 }
 
 #about-background-right {
-  background-image: image-url('about/background-light.jpg');
+  background-image: image-url('about/profile.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
