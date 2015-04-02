@@ -3,7 +3,7 @@ $(document).ready(function() {
   // prevent side scrolling for mouse
   $(window).bind('mousewheel', function(e) {
     if(e.originalEvent.wheelDeltaX != 0) {
-        e.preventDefault();
+      e.preventDefault();
     }
   });
 

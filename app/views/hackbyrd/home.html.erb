@@ -24,7 +24,8 @@
 <div class="la-anim-10"></div>
 
 <%# Welcome message %>
-<h1 class="animated bounceInDown hidden-xs">Scroll Down <%= image_tag "arrow_down.svg", :class => "arrow-down" %></h1>
+<%# <h1 class="animated bounceInDown hidden-xs">Scroll Down <%= image_tag "arrow_down.svg", :class => "arrow-down" %> <%#</h1> %>
+<button class="btn btn-lg center-block" id="click-me">Click Me</button>
 
 <%# If user hasn't scrolled yet, remind them %>
 <h4 class="wow fadeIn hidden-xs" data-wow-duration=".5s" data-wow-delay="3s">What are you waiting for?</h4>
@@ -37,7 +38,7 @@
 <%= render "layouts/jonathan_chen" %>
 
 <%# navigation links %>
-<section class="color-blue">
+<section class="color-blue" id="bottom-nav">
   <nav class="cl-effect-blue text-center">
     <a href="<%= about_path %>" class="wow bounceInDown" data-wow-delay="0s">About</a>
     <a href="<%= portfolio_path %>" class="wow bounceInDown" data-wow-delay=".15s">Portfolio</a>

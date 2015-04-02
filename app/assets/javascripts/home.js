@@ -1,7 +1,28 @@
 /* Hackbyrd javascript */
 
+// scroll to an element
+function scrollToElement(target) {
+  var speed = 5000;
+  var destination = jQuery(target).offset().top;
+  jQuery( 'html:not(:animated),body:not(:animated)' ).animate( { scrollTop: destination}, speed, function() {
+      window.location.hash = target;
+  });
+  return false;
+}
+
 // Javascript
-$(function() {
+$(document).ready(function() {
+
+  // prevent scrolling for mouse
+  $(window).bind('mousewheel', function(e) {
+    if(e.originalEvent.wheelDeltaY != 0)
+      e.preventDefault();
+  });
+
+  // scroll to bottom
+  $("body").on("click", "#click-me", function() {
+    scrollToElement("#bottom-nav");
+  });
 
   // If user has not scrolled down yet, make
   // $("#stop-waiting").delay(5000).fadeIn();
