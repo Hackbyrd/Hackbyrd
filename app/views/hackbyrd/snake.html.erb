@@ -1,5 +1,7 @@
 <%# Extra stylesheets (CSS) just for this page. %>
 <% content_for :extra_stylesheets do %>
+  <%= stylesheet_link_tag "bootstrap" %>
+  <%= stylesheet_link_tag "home" %>
   <%= stylesheet_link_tag "snake" %>
 <% end %>
 
@@ -10,3 +12,6 @@
 
 <%# Snake game canvas %>
 <canvas id="snake_canvas" width="450" height="450"></canvas>
+
+<%# Return Home %>
+<a href="<%= root_path %>" style="text-decoration: none;"><button id="return-home" class="btn btn-lg center-block">Return Home</button></a>

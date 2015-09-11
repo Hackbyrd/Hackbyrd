@@ -19,13 +19,15 @@ $(document).ready(function() {
   });
 
   // when user scrolls
-  $(window).scroll(function(){
+  $(window).on('scroll', function() {
     switchRocket();
     animateSun();
     animateAsteroids();
 
+    var winWidth = $(window).width();
+
     // shake rocket in asteroid belt
-    if (parseInt($("#asteroid-1").css("right")) >= ($(window).width()/2) && parseInt($("#asteroid-0").css("right")) < ($(window).width()/2)) {
+    if (parseInt($("#asteroid-1").css("right")) >= (winWidth/2) && parseInt($("#asteroid-0").css("right")) < (winWidth/2)) {
       verticalRocket();
       horizontalRocket();
     }
@@ -66,19 +68,22 @@ $(document).ready(function() {
 
 // set heights
 function setHeights () {
-  $(".window-height").css("height", $(window).height());
-  $(".window-height-3x").css("height", $(window).height() * 3);
+  var winHeight = $(window).height();
+  $(".window-height").css("height", winHeight);
+  $(".window-height-3x").css("height", winHeight * 3);
   $('.intro').css({ 'margin-top': -($('.intro').height() / 2) });
-  $("#jcrocket").css("top", ($(window).height()/2) - (parseInt($("#jcrocket").css("height"))/2));
+  $("#jcrocket").css("top", (winHeight/2) - (parseInt($("#jcrocket").css("height"))/2));
   $("#jcrocket").css("left", ($(window).width()/2) - (parseInt($("#jcrocket").css("width"))/2));
 }
 
 // set width
 function setWidths () {
-  $(".window-width").css("width", $(window).width());
-  $(".window-width-2").css("width", $(window).width()/2);
-  $(".window-width-3").css("width", $(window).width()/3);
-  $(".window-width-4").css("width", $(window).width()/4);
+  var winWidth = $(window).width();
+
+  $(".window-width").css("width", winWidth);
+  $(".window-width-2").css("width", winWidth/2);
+  $(".window-width-3").css("width", winWidth/3);
+  $(".window-width-4").css("width", winWidth/4);
 }
 
 // scroll to an element
@@ -198,13 +203,16 @@ function generateAsteroids(min_size, max_size, min_right, max_right) {
 
 // create background stars
 function generateBackgroundStars() {
-  var numStars = ($(window).height() * $(window).width())/8000;
+  var winHeight = $(window).height();
+  var winWidth = $(window).width();
+
+  var numStars = (winHeight * winWidth)/8000;
   var insertStars = "";
 
   for (var i = 0; i < numStars; i++) {
     var ranSize = Math.floor((Math.random() * 4)) + 2;
-    var ranTop = Math.floor((Math.random() * $(window).height())) + 5;
-    var ranRight = Math.floor((Math.random() * $(window).width())) + 5;
+    var ranTop = Math.floor((Math.random() * winHeight)) + 5;
+    var ranRight = Math.floor((Math.random() * winWidth)) + 5;
 
     insertStars = insertStars + "<div class='background-star' style='height:" + ranSize + "px; width:" + ranSize + "px; top: " + ranTop + "px; right: " + ranRight + "px;'></div>";
   }

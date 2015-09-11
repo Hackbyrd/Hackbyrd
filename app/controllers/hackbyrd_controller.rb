@@ -18,7 +18,4 @@ class HackbyrdController < ApplicationController
   def snake
   end
 
-  def andrea
-  end
-
 end

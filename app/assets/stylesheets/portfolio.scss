@@ -178,7 +178,11 @@ p {
 }
 
 .panel-btn {
-  margin: 10px auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -107px;
 }
 
 .content-panel {
